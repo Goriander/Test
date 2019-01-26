@@ -55,6 +55,7 @@ X=x
 self.x=obj_hero.x
 self.y=obj_hero.y+64
 obj_hero.inventory_have-=1
+obj_hero.lamp=false
 </string>
           </argument>
         </arguments>

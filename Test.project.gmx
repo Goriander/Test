@@ -27,6 +27,11 @@
       <sprite>sprites\spr_candle</sprite>
       <sprite>sprites\spr_cassette</sprite>
     </sprites>
+    <sprites name="spr_lighting">
+      <sprite>sprites\spr_dark</sprite>
+      <sprite>sprites\spr_candle_light</sprite>
+      <sprite>sprites\spr_lamp_light</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>

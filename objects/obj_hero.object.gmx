@@ -32,6 +32,8 @@ collision_note_id=-1
 collision_object=-1
 inventory_have=0
 inventory_target='none'
+candle=false
+lamp=false
 
 </string>
           </argument>
@@ -141,6 +143,7 @@ if keyboard_check_pressed(vk_space)
         inventory_have+=1
         collision_object.x=100*inventory_have
         collision_object.y=50
+        candle=true
         }
     }
 </string>
@@ -173,6 +176,7 @@ if keyboard_check_pressed(vk_space)
         inventory_have+=1
         collision_object.x=100*inventory_have
         collision_object.y=50
+        lamp=true
         }
     }
 </string>
@@ -319,6 +323,39 @@ if keyboard_check_pressed(vk_space)
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Відрисовка світла
+draw_self()
+
+if !candle &amp;&amp; !lamp
+    draw_sprite(spr_dark,0,x,y)
+
+if candle
+    draw_sprite_ext(spr_candle_light,0,x,y,1,1,0,0,1)
+    
+if lamp
+    draw_sprite_ext(spr_lamp_light,0,x,y,1,1,point_direction(x,y,mouse_x,mouse_y),0,1)
+</string>
+          </argument>
+        </arguments>
       </action>
     </event>
   </events>
