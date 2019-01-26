@@ -6,7 +6,6 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_hero</sprite>
     <sprites name="spr_menu">
       <sprite>sprites\spr_start</sprite>
       <sprite>sprites\spr_exit</sprite>
@@ -32,11 +31,40 @@
       <sprite>sprites\spr_candle_light</sprite>
       <sprite>sprites\spr_lamp_light</sprite>
     </sprites>
+    <sprites name="spr_hero">
+      <sprite>sprites\spr_kortochki_true</sprite>
+      <sprite>sprites\spr_kortochki_true_l</sprite>
+      <sprite>sprites\spr_kortochki_false</sprite>
+      <sprite>sprites\spr_kortochki_false_l</sprite>
+      <sprite>sprites\spr_hero</sprite>
+      <sprite>sprites\spr_hero_l</sprite>
+      <sprite>sprites\spr_death_r</sprite>
+      <sprite>sprites\spr_death_l</sprite>
+      <sprite>sprites\spr_stop_hero</sprite>
+      <sprite>sprites\spr_chose_stand_r</sprite>
+      <sprite>sprites\spr_chose_stand_l</sprite>
+      <sprite>sprites\spr_chose_down_r</sprite>
+      <sprite>sprites\spr_chose_down_l</sprite>
+      <sprite>sprites\spr_axe_punch_l</sprite>
+      <sprite>sprites\spr_axe_punch_r</sprite>
+    </sprites>
+    <sprite>sprites\spr_deathimg</sprite>
+    <sprite>sprites\spr_window_monster</sprite>
+    <sprite>sprites\spr_window_d</sprite>
+    <sprite>sprites\spr_window_n</sprite>
+    <sprite>sprites\spr_box</sprite>
+    <sprite>sprites\spr_spider</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_menu</background>
   </backgrounds>
   <paths name="paths"/>
+
+
+  <scripts name="scripts">
+    <script>scripts\scr_death.gml</script>
+  </scripts>
+
   <fonts name="fonts">
     <font>fonts\font_0</font>
   </fonts>
@@ -53,6 +81,7 @@
       <object>objects\obj_button_new</object>
       <object>objects\obj_note_on_floor</object>
     </objects>
+
     <objects name="obj_inventory">
       <object>objects\obj_sheet</object>
       <object>objects\obj_axe</object>
@@ -61,6 +90,9 @@
       <object>objects\obj_candle</object>
       <object>objects\obj_cassette</object>
     </objects>
+
+    <object>objects\obj_deathimg</object>
+
   </objects>
   <rooms name="rooms">
     <room>rooms\r_menu</room>

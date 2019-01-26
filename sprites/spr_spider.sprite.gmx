@@ -7,10 +7,10 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>96</bbox_left>
-  <bbox_right>159</bbox_right>
-  <bbox_top>68</bbox_top>
-  <bbox_bottom>255</bbox_bottom>
+  <bbox_left>0</bbox_left>
+  <bbox_right>255</bbox_right>
+  <bbox_top>72</bbox_top>
+  <bbox_bottom>247</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
@@ -20,11 +20,7 @@
   <width>256</width>
   <height>256</height>
   <frames>
-    <frame index="0">images\spr_hero_0.png</frame>
-    <frame index="1">images\spr_hero_1.png</frame>
-    <frame index="2">images\spr_hero_2.png</frame>
-    <frame index="3">images\spr_hero_3.png</frame>
-    <frame index="4">images\spr_hero_4.png</frame>
-    <frame index="5">images\spr_hero_5.png</frame>
+    <frame index="0">images\spr_spider_0.png</frame>
+    <frame index="1">images\spr_spider_1.png</frame>
   </frames>
 </sprite>
