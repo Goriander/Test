@@ -70,6 +70,9 @@
     <sprite>sprites\spr_window_d</sprite>
     <sprite>sprites\spr_window_monster</sprite>
     <sprite>sprites\spr_window_n</sprite>
+    <sprite>sprites\spr_slime_0</sprite>
+    <sprite>sprites\spr_smile_1</sprite>
+    <sprite>sprites\spr_slime_2</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
