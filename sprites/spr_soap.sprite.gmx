@@ -7,10 +7,10 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>48</bbox_left>
-  <bbox_right>255</bbox_right>
+  <bbox_left>72</bbox_left>
+  <bbox_right>215</bbox_right>
   <bbox_top>0</bbox_top>
-  <bbox_bottom>203</bbox_bottom>
+  <bbox_bottom>251</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
@@ -20,6 +20,6 @@
   <width>256</width>
   <height>256</height>
   <frames>
-    <frame index="0">images\spr_bath_0.png</frame>
+    <frame index="0">images\spr_soap_0.png</frame>
   </frames>
 </sprite>
