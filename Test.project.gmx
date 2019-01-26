@@ -28,10 +28,19 @@
       <sprite>sprites\spr_death_r</sprite>
       <sprite>sprites\spr_death_l</sprite>
       <sprite>sprites\spr_stop_hero</sprite>
+      <sprite>sprites\spr_chose_stand_r</sprite>
+      <sprite>sprites\spr_chose_stand_l</sprite>
+      <sprite>sprites\spr_chose_down_r</sprite>
+      <sprite>sprites\spr_chose_down_l</sprite>
+      <sprite>sprites\spr_axe_punch_l</sprite>
+      <sprite>sprites\spr_axe_punch_r</sprite>
     </sprites>
     <sprite>sprites\spr_deathimg</sprite>
-    <sprite>sprites\spr_chose_stand_r</sprite>
-    <sprite>sprites\spr_chose_stand_l</sprite>
+    <sprite>sprites\spr_window_monster</sprite>
+    <sprite>sprites\spr_window_d</sprite>
+    <sprite>sprites\spr_window_n</sprite>
+    <sprite>sprites\spr_box</sprite>
+    <sprite>sprites\spr_spider</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
