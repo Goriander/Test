@@ -33,7 +33,9 @@
       <sprite>sprites\spr_lamp_light</sprite>
     </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_menu</background>
+  </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
     <font>fonts\font_0</font>
@@ -62,16 +64,45 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\r_menu</room>
-    <room>rooms\r_bedroom</room>
-    <room>rooms\r_bath</room>
-    <room>rooms\r_anteroom</room>
-    <room>rooms\r_kitchen</room>
-    <room>rooms\r_basement</room>
-    <room>rooms\r_roof</room>
-    <room>rooms\r_garage</room>
-    <room>rooms\r_pantry</room>
-    <room>rooms\r_court</room>
-    <room>rooms\r_guest</room>
+    <rooms name="r_d">
+      <room>rooms\r_d_1</room>
+      <room>rooms\r_d_2</room>
+      <room>rooms\r_d_3</room>
+      <room>rooms\r_d_4</room>
+      <room>rooms\r_d_5</room>
+      <room>rooms\r_d_6</room>
+      <room>rooms\r_d_7</room>
+      <room>rooms\r_d_8</room>
+      <room>rooms\r_d_9</room>
+      <room>rooms\r_d_10</room>
+      <room>rooms\r_d_11</room>
+      <room>rooms\r_d_12</room>
+      <room>rooms\r_d_13</room>
+      <room>rooms\r_d_14</room>
+      <room>rooms\r_d_15</room>
+      <room>rooms\r_d_16</room>
+      <room>rooms\r_d_17</room>
+      <room>rooms\r_d_18</room>
+    </rooms>
+    <rooms name="r_n">
+      <room>rooms\r_n_19</room>
+      <room>rooms\r_n_20</room>
+      <room>rooms\r_n_21</room>
+      <room>rooms\r_n_22</room>
+      <room>rooms\r_n_23</room>
+      <room>rooms\r_n_24</room>
+      <room>rooms\r_n_25</room>
+      <room>rooms\r_n_26</room>
+      <room>rooms\r_n_27</room>
+      <room>rooms\r_n_28</room>
+      <room>rooms\r_n_29</room>
+      <room>rooms\r_n_30</room>
+      <room>rooms\r_n_31</room>
+      <room>rooms\r_n_32</room>
+      <room>rooms\r_n_33</room>
+      <room>rooms\r_n_34</room>
+      <room>rooms\r_n_35</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
