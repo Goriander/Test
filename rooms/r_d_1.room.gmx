@@ -55,6 +55,8 @@
     <instance objName="obj_sheet" x="288" y="576" name="inst_D80557A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lamp" x="768" y="544" name="inst_094F392A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_candle" x="960" y="544" name="inst_6AD48A1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pregrada" x="160" y="0" name="inst_649B53F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pregrada" x="1120" y="0" name="inst_3671D8CB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

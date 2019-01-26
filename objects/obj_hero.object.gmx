@@ -155,6 +155,32 @@ if keyboard_check_released(vk_down) = true
         </arguments>
       </action>
     </event>
+    <event eventtype="4" ename="obj_pregrada">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if hspeed&gt;0
+    x=x-hspeed
+if hspeed&lt;0
+    x=x+hspeed
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="4" ename="obj_cassette">
       <action>
         <libid>1</libid>
@@ -596,13 +622,13 @@ if sprite_index=spr_chose_down_l
 draw_self()
 
 if !candle &amp;&amp; !lamp
-    draw_sprite(spr_dark,0,x,y)
+    draw_sprite(spr_dark,0,0,0)
 
 if candle
-    draw_sprite_ext(spr_candle_light,0,x,y,1,1,0,0,1)
+    draw_sprite_ext(spr_candle_light,0,x+130,y+170,1,1,0,0,0.75)
     
 if lamp
-    draw_sprite_ext(spr_lamp_light,0,x,y,1,1,point_direction(x,y,mouse_x,mouse_y),0,1)
+    draw_sprite_ext(spr_lamp_light,0,x+130,y+170,1,1,point_direction(x+130,y+170,mouse_x,mouse_y),0,0.75)
 </string>
           </argument>
         </arguments>

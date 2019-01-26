@@ -43,12 +43,10 @@
       <sprite>sprites\spr_chose_down_l</sprite>
       <sprite>sprites\spr_axe_punch_l</sprite>
       <sprite>sprites\spr_axe_punch_r</sprite>
+      <sprite>sprites\spr_pregrada</sprite>
     </sprites>
     <sprite>sprites\spr_clatch</sprite>
     <sprite>sprites\spr_deathimg</sprite>
-    <sprite>sprites\spr_door_l</sprite>
-    <sprite>sprites\spr_door_open</sprite>
-    <sprite>sprites\spr_door_r</sprite>
     <sprite>sprites\spr_false_mirror</sprite>
     <sprite>sprites\spr_mirror_eye</sprite>
     <sprite>sprites\spr_spider</sprite>
@@ -67,7 +65,6 @@
       <sprite>sprites\spr_chair</sprite>
       <sprite>sprites\spr_mirror</sprite>
       <sprite>sprites\spr_tumba</sprite>
-      <sprite>sprites\spr_door_close</sprite>
       <sprite>sprites\spr_pott_3</sprite>
       <sprite>sprites\spr_pott_0</sprite>
       <sprite>sprites\spr_pott_2</sprite>
@@ -169,6 +166,7 @@
       <object>objects\obj_door_r</object>
       <object>objects\obj_door_close</object>
     </objects>
+    <object>objects\obj_pregrada</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_menu</room>
