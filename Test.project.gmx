@@ -21,7 +21,6 @@
       <sprite>sprites\spr_lamp</sprite>
       <sprite>sprites\spr_candle</sprite>
       <sprite>sprites\spr_cassette</sprite>
-      <sprite>sprites\spr_yad</sprite>
     </sprites>
     <sprites name="spr_lighting">
       <sprite>sprites\spr_dark</sprite>
@@ -132,7 +131,6 @@
       <object>objects\obj_lamp</object>
       <object>objects\obj_candle</object>
       <object>objects\obj_cassette</object>
-      <object>objects\obj_yad</object>
     </objects>
     <object>objects\obj_deathimg</object>
     <objects name="Decoration">
