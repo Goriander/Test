@@ -26,7 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>///Шлях куди веде дверь
-path=r_d_6
+if obj_hero.night=false
+    path=choose(r_n_19,r_n_20,r_n_21,r_n_22,r_n_23,r_n_24,r_n_25,r_n_26,r_n_27,r_n_28,r_n_29,r_n_30,r_n_32,r_n_33,r_n_34,r_n_35)
 
 </string>
           </argument>
@@ -51,9 +52,9 @@ path=r_d_6
           <argument>
             <kind>1</kind>
             <string>///Переміщення
-if keyboard_key_release(vk_space)
+if keyboard_key=vk_space
     {
-    if obj_hero.collision_object!=-1
+    if obj_hero.collision_object=-1
         {
         room_goto(path)
         }

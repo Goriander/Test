@@ -64,6 +64,11 @@
     <instance objName="obj_bookshelf_1" x="556" y="264" name="inst_B525E725" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pott_2" x="550" y="311" name="inst_4C4A3866" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_picture_3" x="239" y="196" name="inst_03BF3D77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hero" x="416" y="288" name="inst_E7C9F115" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_note_ico" x="32" y="32" name="inst_112552F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door_r" x="945" y="304" name="inst_3832AD5D" locked="0" code="if obj_hero.night=false&#xA;    path=r_d_7&#xA;path_x=192&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pregrada" x="1103" y="1" name="inst_0D43247B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pregrada" x="192" y="0" name="inst_1AAB0FAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
