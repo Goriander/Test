@@ -6,10 +6,6 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprites name="spr_menu">
-      <sprite>sprites\spr_start</sprite>
-      <sprite>sprites\spr_exit</sprite>
-    </sprites>
     <sprites name="spr_note">
       <sprite>sprites\spr_note_iventory</sprite>
       <sprite>sprites\spr_note_open</sprite>
@@ -17,6 +13,10 @@
       <sprite>sprites\spr_button_left</sprite>
       <sprite>sprites\spr_button_new</sprite>
       <sprite>sprites\spr_note_on_floor</sprite>
+    </sprites>
+    <sprites name="spr_menu">
+      <sprite>sprites\spr_start</sprite>
+      <sprite>sprites\spr_exit</sprite>
     </sprites>
     <sprites name="spr_hero">
       <sprite>sprites\spr_kortochki_true</sprite>
@@ -35,33 +35,41 @@
       <sprite>sprites\spr_axe_punch_l</sprite>
       <sprite>sprites\spr_axe_punch_r</sprite>
     </sprites>
-    <sprite>sprites\spr_deathimg</sprite>
-    <sprite>sprites\spr_window_monster</sprite>
-    <sprite>sprites\spr_window_d</sprite>
-    <sprite>sprites\spr_window_n</sprite>
+    <sprite>sprites\spr_bed</sprite>
+    <sprite>sprites\spr_bookshelf</sprite>
+    <sprite>sprites\spr_bookshelf_1</sprite>
     <sprite>sprites\spr_box</sprite>
-    <sprite>sprites\spr_spider</sprite>
-    <sprite>sprites\spr_door_open</sprite>
+    <sprite>sprites\spr_chair</sprite>
+    <sprite>sprites\spr_clatch</sprite>
+    <sprite>sprites\spr_deathimg</sprite>
     <sprite>sprites\spr_door_close</sprite>
-    <sprite>sprites\spr_door_r</sprite>
     <sprite>sprites\spr_door_l</sprite>
-    <sprite>sprites\spr_stairway_r</sprite>
-    <sprite>sprites\spr_starway_l</sprite>
+    <sprite>sprites\spr_door_open</sprite>
+    <sprite>sprites\spr_door_r</sprite>
+    <sprite>sprites\spr_false_mirror</sprite>
+    <sprite>sprites\spr_mirror</sprite>
+    <sprite>sprites\spr_mirror_eye</sprite>
+    <sprite>sprites\spr_picture_0</sprite>
+    <sprite>sprites\spr_picture_1</sprite>
+    <sprite>sprites\spr_picture_2</sprite>
+    <sprite>sprites\spr_picture_3</sprite>
+    <sprite>sprites\spr_picture_4</sprite>
     <sprite>sprites\spr_pott_0</sprite>
     <sprite>sprites\spr_pott_1</sprite>
     <sprite>sprites\spr_pott_2</sprite>
     <sprite>sprites\spr_pott_3</sprite>
-    <sprite>sprites\spr_picture_0</sprite>
+    <sprite>sprites\spr_shelf</sprite>
+    <sprite>sprites\spr_shmotshelf_0</sprite>
+    <sprite>sprites\spr_shortshelf</sprite>
+    <sprite>sprites\spr_spider</sprite>
+    <sprite>sprites\spr_stairway_r</sprite>
+    <sprite>sprites\spr_starway_l</sprite>
     <sprite>sprites\spr_table</sprite>
-    <sprite>sprites\spr_chair</sprite>
     <sprite>sprites\spr_taburet</sprite>
-    <sprite>sprites\spr_bed</sprite>
-    <sprite>sprites\spr_picture_1</sprite>
     <sprite>sprites\spr_tumba</sprite>
-    <sprite>sprites\spr_clatch</sprite>
-    <sprite>sprites\spr_mirror_eye</sprite>
-    <sprite>sprites\spr_mirror</sprite>
-    <sprite>sprites\spr_false_mirror</sprite>
+    <sprite>sprites\spr_window_d</sprite>
+    <sprite>sprites\spr_window_monster</sprite>
+    <sprite>sprites\spr_window_n</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
