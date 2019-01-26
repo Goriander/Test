@@ -17,29 +17,41 @@
       <sprite>sprites\spr_button_right</sprite>
       <sprite>sprites\spr_button_left</sprite>
       <sprite>sprites\spr_button_new</sprite>
+      <sprite>sprites\spr_note_on_floor</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts"/>
+  <fonts name="fonts">
+    <font>fonts\font_0</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_hero</object>
-    <object>objects\obj_note</object>
     <objects name="obj_menu">
       <object>objects\obj_start</object>
       <object>objects\obj_exit</object>
     </objects>
     <objects name="obj_note">
       <object>objects\obj_note_ico</object>
-      <object>objects\obj_note_open</object>
-      <object>objects\obj_button_rigth</object>
+      <object>objects\obj_button_right</object>
       <object>objects\obj_button_left</object>
       <object>objects\obj_button_new</object>
+      <object>objects\obj_note_on_floor</object>
     </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_menu</room>
-    <room>rooms\r_test</room>
+    <room>rooms\r_bedroom</room>
+    <room>rooms\r_bath</room>
+    <room>rooms\r_anteroom</room>
+    <room>rooms\r_kitchen</room>
+    <room>rooms\r_basement</room>
+    <room>rooms\r_roof</room>
+    <room>rooms\r_garage</room>
+    <room>rooms\r_pantry</room>
+    <room>rooms\r_court</room>
+    <room>rooms\r_guest</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

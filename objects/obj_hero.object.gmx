@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -28,6 +28,7 @@
             <string>///Оголошення змінних
 image_speed=0           //Виключення анімації
 kortochki=false         //Змінна для перевірки чи присів гг, чи ні
+collision_note_id=-1
 </string>
           </argument>
         </arguments>
@@ -53,9 +54,9 @@ kortochki=false         //Змінна для перевірки чи присі
             <string>/// Керування гравцем 
 switch(keyboard_key)
     {
-    case vk_left: if !kortochki {hspeed = -5;} break; // Якщо він не присів, то швидкість вліво -5
-    case vk_right: if !kortochki {hspeed = 5;} break; // Якщо він не присів, то швидкість вліво 5
-    case vk_down: if !kortochki {kortochki=true; image_index=1;} break; //Він присів і поміняв спрайт
+    case vk_left: if !kortochki &amp;&amp; obj_note_ico.open=false {hspeed = -5;} break; // Якщо він не присів, то швидкість вліво -5
+    case vk_right: if !kortochki &amp;&amp; obj_note_ico.open=false {hspeed = 5;} break; // Якщо він не присів, то швидкість вліво 5
+    case vk_down: if !kortochki &amp;&amp; obj_note_ico.open=false {kortochki=true; hspeed=0; image_index=1;} break; //Він присів і поміняв спрайт
     }
 // Віджимання лівої клавіші       
 if keyboard_check_released(vk_left) = true 
@@ -77,6 +78,51 @@ if keyboard_check_released(vk_down) = true
 </string>
           </argument>
         </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_note_on_floor">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Підняття записки
+if keyboard_check_pressed(vk_space)
+    {
+    obj_note_ico.have_note+=1
+    ds_list_add(global.list,collision_note_id.text) 
+    instance_destroy(collision_note_id)
+    }
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="5" enumb="27">
+      <action>
+        <libid>1</libid>
+        <id>332</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_end_game</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
       </action>
     </event>
   </events>
