@@ -83,6 +83,7 @@
     </sprites>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <sprites name="spr_menu">
       <sprite>sprites\spr_start</sprite>
       <sprite>sprites\spr_exit</sprite>
@@ -93,6 +94,11 @@
       <sprite>sprites\spr_door_open</sprite>
       <sprite>sprites\spr_door_r</sprite>
     </sprites>
+=======
+    <sprite>sprites\obj_background_0</sprite>
+    <sprite>sprites\obj_background_3</sprite>
+    <sprite>sprites\obj_background_1</sprite>
+>>>>>>> parent of 202c764... ubei
 =======
     <sprite>sprites\obj_background_0</sprite>
     <sprite>sprites\obj_background_3</sprite>
@@ -180,7 +186,10 @@
     </objects>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <object>objects\obj_pregrada</object>
+=======
+>>>>>>> parent of 202c764... ubei
 =======
 >>>>>>> parent of 202c764... ubei
 =======

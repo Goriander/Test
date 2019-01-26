@@ -3,8 +3,13 @@
   <caption></caption>
 <<<<<<< HEAD:rooms/r_d_1.room.gmx
 <<<<<<< HEAD:rooms/r_d_1.room.gmx
+<<<<<<< HEAD:rooms/r_d_1.room.gmx
   <width>1280</width>
   <height>720</height>
+=======
+  <width>1024</width>
+  <height>768</height>
+>>>>>>> parent of 202c764... ubei:rooms/r_bedroom.room.gmx
 =======
   <width>1024</width>
   <height>768</height>
@@ -63,6 +68,7 @@
   <instances>
 <<<<<<< HEAD:rooms/r_d_1.room.gmx
 <<<<<<< HEAD:rooms/r_d_1.room.gmx
+<<<<<<< HEAD:rooms/r_d_1.room.gmx
     <instance objName="obj_hero" x="64" y="288" name="inst_BBC48462" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="&lt;undefined&gt;" x="1088" y="160" name="inst_397F02F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="&lt;undefined&gt;" x="96" y="160" name="inst_79C5A132" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -74,6 +80,9 @@
     <instance objName="&lt;undefined&gt;" x="272" y="160" name="inst_1A0F6216" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="&lt;undefined&gt;" x="912" y="160" name="inst_BFCACFBC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="&lt;undefined&gt;" x="992" y="160" name="inst_E67E5B7C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+=======
+    <instance objName="obj_hero" x="256" y="416" name="inst_BBC48462" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+>>>>>>> parent of 202c764... ubei:rooms/r_bedroom.room.gmx
 =======
     <instance objName="obj_hero" x="256" y="416" name="inst_BBC48462" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
 >>>>>>> parent of 202c764... ubei:rooms/r_bedroom.room.gmx
