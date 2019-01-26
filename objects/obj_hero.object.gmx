@@ -3,7 +3,7 @@
   <spriteName>spr_stop_hero</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-1</depth>
   <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -34,6 +34,62 @@ inventory_have=0
 inventory_target='none'
 candle=false
 lamp=false
+night=false
+alarm[0]=3600
+nd_animation=false
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Настав день
+night=false
+instance_create(0,0,obj_day)
+alarm[0]=1800
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Настала ніч
+night=true
+instance_create(0,0,obj_night)
+alarm[1]=1800
 
 </string>
           </argument>
@@ -234,7 +290,6 @@ if hspeed&lt;0
         </arguments>
       </action>
     </event>
-<<<<<<< HEAD
     <event eventtype="4" ename="obj_bed">
       <action>
         <libid>1</libid>
@@ -332,8 +387,6 @@ if keyboard_check_pressed(vk_space) &amp;&amp; night
         </arguments>
       </action>
     </event>
-=======
->>>>>>> parent of 269e7a9... first
     <event eventtype="4" ename="obj_cassette">
       <action>
         <libid>1</libid>
@@ -774,7 +827,7 @@ if sprite_index=spr_chose_down_l
             <string>///Відрисовка світла
 draw_self()
 
-if !candle &amp;&amp; !lamp
+if !candle &amp;&amp; !lamp &amp;&amp; night
     draw_sprite(spr_dark,0,0,0)
 
 if candle

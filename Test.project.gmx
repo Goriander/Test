@@ -92,7 +92,6 @@
       <sprite>sprites\spr_door_open</sprite>
       <sprite>sprites\spr_door_r</sprite>
     </sprites>
-<<<<<<< HEAD
     <sprite>sprites\spr_background_0</sprite>
     <sprite>sprites\spr_background_1</sprite>
     <sprite>sprites\spr_background_2</sprite>
@@ -102,8 +101,6 @@
     <sprite>sprites\spr_bath_bg_0</sprite>
     <sprite>sprites\spr_bath_bg_1</sprite>
     <sprite>sprites\spr_bath_bg_2</sprite>
-=======
->>>>>>> parent of 269e7a9... first
   </sprites>
   <backgrounds name="background">
     <background>background\bg_menu</background>
@@ -181,7 +178,6 @@
       </objects>
     </objects>
     <object>objects\obj_pregrada</object>
-<<<<<<< HEAD
     <object>objects\obj_background_0</object>
     <object>objects\obj_background_1</object>
     <object>objects\obj_background_2</object>
@@ -191,8 +187,6 @@
     <object>objects\obj_bath_bg_0</object>
     <object>objects\obj_bath_bg_1</object>
     <object>objects\obj_bath_bg_2</object>
-=======
->>>>>>> parent of 269e7a9... first
   </objects>
   <rooms name="rooms">
     <room>rooms\r_menu</room>
