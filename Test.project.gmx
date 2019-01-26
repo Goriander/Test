@@ -19,10 +19,17 @@
       <sprite>sprites\spr_button_new</sprite>
       <sprite>sprites\spr_note_on_floor</sprite>
     </sprites>
+    <sprites name="spr_inventory">
+      <sprite>sprites\spr_sheet</sprite>
+      <sprite>sprites\spr_axe</sprite>
+      <sprite>sprites\spr_key</sprite>
+      <sprite>sprites\spr_lamp</sprite>
+      <sprite>sprites\spr_candle</sprite>
+      <sprite>sprites\spr_cassette</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
-  <scripts name="scripts"/>
   <fonts name="fonts">
     <font>fonts\font_0</font>
   </fonts>
@@ -38,6 +45,14 @@
       <object>objects\obj_button_left</object>
       <object>objects\obj_button_new</object>
       <object>objects\obj_note_on_floor</object>
+    </objects>
+    <objects name="obj_inventory">
+      <object>objects\obj_sheet</object>
+      <object>objects\obj_axe</object>
+      <object>objects\obj_key</object>
+      <object>objects\obj_lamp</object>
+      <object>objects\obj_candle</object>
+      <object>objects\obj_cassette</object>
     </objects>
   </objects>
   <rooms name="rooms">
