@@ -59,12 +59,9 @@
     <background>background\bg_menu</background>
   </backgrounds>
   <paths name="paths"/>
-
-
   <scripts name="scripts">
     <script>scripts\scr_death.gml</script>
   </scripts>
-
   <fonts name="fonts">
     <font>fonts\font_0</font>
   </fonts>
@@ -81,7 +78,6 @@
       <object>objects\obj_button_new</object>
       <object>objects\obj_note_on_floor</object>
     </objects>
-
     <objects name="obj_inventory">
       <object>objects\obj_sheet</object>
       <object>objects\obj_axe</object>
@@ -90,9 +86,7 @@
       <object>objects\obj_candle</object>
       <object>objects\obj_cassette</object>
     </objects>
-
     <object>objects\obj_deathimg</object>
-
   </objects>
   <rooms name="rooms">
     <room>rooms\r_menu</room>
