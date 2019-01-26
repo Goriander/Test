@@ -450,6 +450,7 @@
     <option_textureGroup0_nocropping>false</option_textureGroup0_nocropping>
     <option_textureGroup0_parent>&lt;none&gt;</option_textureGroup0_parent>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option_textureGroup0_scaled>0</option_textureGroup0_scaled>
     <option_textureGroup0_targets>9223372036854775807</option_textureGroup0_targets>
     <option_textureGroup1_border>2</option_textureGroup1_border>
@@ -464,6 +465,8 @@
     <option_textureGroup2_targets>9223372036854775807</option_textureGroup2_targets>
     <option_textureGroup_count>3</option_textureGroup_count>
 =======
+=======
+>>>>>>> parent of 202c764... ubei
     <option_textureGroup0_scaled>false</option_textureGroup0_scaled>
     <option_textureGroup0_targets>$7fffffffffffffff</option_textureGroup0_targets>
     <option_textureGroup_count>1</option_textureGroup_count>
