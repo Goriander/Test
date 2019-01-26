@@ -66,6 +66,7 @@
     <instance objName="obj_pott_1" x="-160" y="352" name="inst_E28563BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pott_3" x="-192" y="64" name="inst_BCC80D7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pott_0" x="342" y="355" name="inst_8A713AC9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_axe" x="529" y="519" name="inst_98A5564D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
