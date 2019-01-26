@@ -44,24 +44,16 @@
       <sprite>sprites\spr_axe_punch_l</sprite>
       <sprite>sprites\spr_axe_punch_r</sprite>
     </sprites>
-    <sprite>sprites\spr_bed</sprite>
-    <sprite>sprites\spr_box</sprite>
-    <sprite>sprites\spr_chair</sprite>
     <sprite>sprites\spr_clatch</sprite>
     <sprite>sprites\spr_deathimg</sprite>
+    <sprite>sprites\spr_door_l</sprite>
+    <sprite>sprites\spr_door_open</sprite>
+    <sprite>sprites\spr_door_r</sprite>
     <sprite>sprites\spr_false_mirror</sprite>
-    <sprite>sprites\spr_mirror</sprite>
     <sprite>sprites\spr_mirror_eye</sprite>
-    <sprite>sprites\spr_pott_0</sprite>
-    <sprite>sprites\spr_pott_1</sprite>
-    <sprite>sprites\spr_pott_2</sprite>
-    <sprite>sprites\spr_pott_3</sprite>
     <sprite>sprites\spr_spider</sprite>
     <sprite>sprites\spr_stairway_r</sprite>
     <sprite>sprites\spr_starway_l</sprite>
-    <sprite>sprites\spr_table</sprite>
-    <sprite>sprites\spr_taburet</sprite>
-    <sprite>sprites\spr_tumba</sprite>
     <sprite>sprites\spr_window_monster</sprite>
     <sprite>sprites\spr_slime_0</sprite>
     <sprite>sprites\spr_smile_1</sprite>
@@ -69,10 +61,22 @@
     <sprites name="used">
       <sprite>sprites\spr_picture_4</sprite>
       <sprite>sprites\spr_window_n</sprite>
+      <sprite>sprites\spr_table</sprite>
+      <sprite>sprites\spr_pott_1</sprite>
+      <sprite>sprites\spr_bed</sprite>
+      <sprite>sprites\spr_chair</sprite>
+      <sprite>sprites\spr_mirror</sprite>
+      <sprite>sprites\spr_tumba</sprite>
+      <sprite>sprites\spr_door_close</sprite>
+      <sprite>sprites\spr_pott_3</sprite>
+      <sprite>sprites\spr_pott_0</sprite>
+      <sprite>sprites\spr_pott_2</sprite>
       <sprite>sprites\spr_bookshelf_1</sprite>
+      <sprite>sprites\spr_box</sprite>
       <sprite>sprites\spr_window_d</sprite>
       <sprite>sprites\spr_picture_2</sprite>
       <sprite>sprites\spr_picture_0</sprite>
+      <sprite>sprites\spr_taburet</sprite>
       <sprite>sprites\spr_shelf</sprite>
       <sprite>sprites\spr_picture_1</sprite>
       <sprite>sprites\spr_picture_3</sprite>
@@ -141,6 +145,22 @@
         <object>objects\obj_picture_2</object>
         <object>objects\obj_picture_3</object>
         <object>objects\obj_picture_4</object>
+      </objects>
+      <objects name="tables">
+        <object>objects\obj_table</object>
+        <object>objects\obj_box</object>
+        <object>objects\obj_chair</object>
+        <object>objects\obj_taburet</object>
+        <object>objects\obj_tumba</object>
+        <object>objects\obj_mirror</object>
+        <object>objects\obj_bed</object>
+        <object>objects\obj_boy_next_door</object>
+      </objects>
+      <objects name="potts">
+        <object>objects\obj_pott_0</object>
+        <object>objects\obj_pott_1</object>
+        <object>objects\obj_pott_2</object>
+        <object>objects\obj_pott_3</object>
       </objects>
     </objects>
     <objects name="obj_doors">
