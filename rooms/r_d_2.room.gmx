@@ -63,8 +63,10 @@
     <instance objName="obj_bath_dry" x="524" y="320" name="inst_ED2E0D89" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_soap" x="396" y="160" name="inst_4C247352" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_medic" x="780" y="160" name="inst_4087FEE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_pregrada" x="256" y="32" name="inst_96551DE7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_pregrada" x="1030" y="64" name="inst_D7903F47" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pregrada" x="230" y="-3" name="inst_96551DE7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pregrada" x="1048" y="-2" name="inst_D7903F47" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door_l" x="136" y="300" name="inst_793C2FD7" locked="0" code="if obj_hero.night=false&#xA;    path=r_d_1&#xA;path_x=512&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door_r" x="896" y="304" name="inst_37FB7301" locked="0" code="if obj_hero.night=false&#xA;    path=r_d_3&#xA;path_x=512&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
