@@ -104,6 +104,7 @@
     <sprite>sprites\spr_soap</sprite>
     <sprite>sprites\spr_medic</sprite>
     <sprite>sprites\spr_jar</sprite>
+    <sprite>sprites\spr_alonejar</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_menu</background>
@@ -194,6 +195,7 @@
     <object>objects\obj_medic</object>
     <object>objects\obj_slime_0</object>
     <object>objects\obj_jar</object>
+    <object>objects\obj_alonejar</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_menu</room>
