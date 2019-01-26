@@ -53,8 +53,9 @@ obj_hero.collision_object=self.id
 current_room=room_get_name(room)
 X=x
 self.x=obj_hero.x
-self.y=obj_hero.y+64
+self.y=obj_hero.y+225
 obj_hero.inventory_have-=1
+obj_hero.candle=false
 </string>
           </argument>
         </arguments>
