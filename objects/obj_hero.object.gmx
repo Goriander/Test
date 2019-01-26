@@ -180,6 +180,27 @@ if keyboard_check_pressed(vk_space)
         inventory_have+=1
         collision_object.x=100*inventory_have
         collision_object.y=50
+        collision_object=-1
+        if sprite_index=obj_hero 
+            {
+            sprite_index=spr_chose_down_r
+            image_speed=0.2
+            }
+        if sprite_index=spr_stop_hero &amp;&amp; image_index=0
+            {
+            sprite_index=spr_chose_down_r
+            image_speed=0.2
+            }
+        if sprite_index=spr_hero_l
+            {
+            sprite_index=spr_chose_down_r
+            image_speed=0.2
+            }
+        if sprite_index=spr_hero_l &amp;&amp; image_index=1
+            {
+            sprite_index=spr_chose_down_r
+            image_speed=0.2
+            }
         }
     }
 </string>
@@ -213,6 +234,27 @@ if keyboard_check_pressed(vk_space)
         collision_object.x=100*inventory_have
         collision_object.y=50
         candle=true
+        collision_object=-1
+        if sprite_index=obj_hero 
+            {
+            sprite_index=spr_chose_down_r
+            image_speed=0.2
+            }
+        if sprite_index=spr_stop_hero &amp;&amp; image_index=0
+            {
+            sprite_index=spr_chose_down_r
+            image_speed=0.2
+            }
+        if sprite_index=spr_hero_l
+            {
+            sprite_index=spr_chose_down_r
+            image_speed=0.2
+            }
+        if sprite_index=spr_hero_l &amp;&amp; image_index=1
+            {
+            sprite_index=spr_chose_down_r
+            image_speed=0.2
+            }
         }
     }
 </string>
@@ -246,6 +288,27 @@ if keyboard_check_pressed(vk_space)
         collision_object.x=100*inventory_have
         collision_object.y=50
         lamp=true
+        collision_object=-1
+        if sprite_index=obj_hero 
+            {
+            sprite_index=spr_chose_down_r
+            image_speed=0.2
+            }
+        if sprite_index=spr_stop_hero &amp;&amp; image_index=0
+            {
+            sprite_index=spr_chose_down_r
+            image_speed=0.2
+            }
+        if sprite_index=spr_hero_l
+            {
+            sprite_index=spr_chose_down_r
+            image_speed=0.2
+            }
+        if sprite_index=spr_hero_l &amp;&amp; image_index=1
+            {
+            sprite_index=spr_chose_down_r
+            image_speed=0.2
+            }
         }
     }
 </string>
@@ -278,6 +341,27 @@ if keyboard_check_pressed(vk_space)
         inventory_have+=1
         collision_object.x=100*inventory_have
         collision_object.y=50
+        collision_object=-1
+        if sprite_index=obj_hero 
+            {
+            sprite_index=spr_chose_down_r
+            image_speed=0.2
+            }
+        if sprite_index=spr_stop_hero &amp;&amp; image_index=0
+            {
+            sprite_index=spr_chose_down_r
+            image_speed=0.2
+            }
+        if sprite_index=spr_hero_l
+            {
+            sprite_index=spr_chose_down_r
+            image_speed=0.2
+            }
+        if sprite_index=spr_hero_l &amp;&amp; image_index=1
+            {
+            sprite_index=spr_chose_down_r
+            image_speed=0.2
+            }
         }
     }
 </string>
@@ -310,6 +394,27 @@ if keyboard_check_pressed(vk_space)
         inventory_have+=1
         collision_object.x=100*inventory_have
         collision_object.y=50
+        collision_object=-1
+        if sprite_index=obj_hero 
+            {
+            sprite_index=spr_chose_down_r
+            image_speed=0.2
+            }
+        if sprite_index=spr_stop_hero &amp;&amp; image_index=0
+            {
+            sprite_index=spr_chose_down_r
+            image_speed=0.2
+            }
+        if sprite_index=spr_hero_l
+            {
+            sprite_index=spr_chose_down_r
+            image_speed=0.2
+            }
+        if sprite_index=spr_hero_l &amp;&amp; image_index=1
+            {
+            sprite_index=spr_chose_down_r
+            image_speed=0.2
+            }
         }
     }
 </string>
@@ -342,6 +447,27 @@ if keyboard_check_pressed(vk_space)
         inventory_have+=1
         collision_object.x=100*inventory_have
         collision_object.y=50
+        collision_object=-1
+        if sprite_index=obj_hero 
+            {
+            sprite_index=spr_chose_down_r
+            image_speed=0.2
+            }
+        if sprite_index=spr_stop_hero &amp;&amp; image_index=0
+            {
+            sprite_index=spr_chose_down_r
+            image_speed=0.2
+            }
+        if sprite_index=spr_hero_l
+            {
+            sprite_index=spr_chose_down_r
+            image_speed=0.2
+            }
+        if sprite_index=spr_hero_l &amp;&amp; image_index=1
+            {
+            sprite_index=spr_chose_down_r
+            image_speed=0.2
+            }
         }
     }
 </string>
@@ -426,16 +552,23 @@ if sprite_index=spr_kortochki_false    //Анімація вставання
                 image_index = 0;
             }
             
-if sprite_index = spr_kortochki_true_l 
+if sprite_index = spr_kortochki_true_l || sprite_index = spr_kortochki_true
     {
     image_speed = 0
     image_index=2
     }
-    
-if sprite_index = spr_kortochki_true 
+
+if sprite_index=spr_chose_down_r 
     {
+    sprite_index = spr_stop_hero;
     image_speed = 0
-    image_index=2
+    image_index = 0;
+    }
+if sprite_index=spr_chose_down_l
+    {
+    sprite_index = spr_stop_hero;
+    image_speed = 0
+    image_index = 1;
     }
 </string>
           </argument>

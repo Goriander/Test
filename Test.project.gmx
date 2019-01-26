@@ -49,10 +49,6 @@
     <sprite>sprites\spr_chair</sprite>
     <sprite>sprites\spr_clatch</sprite>
     <sprite>sprites\spr_deathimg</sprite>
-    <sprite>sprites\spr_door_close</sprite>
-    <sprite>sprites\spr_door_l</sprite>
-    <sprite>sprites\spr_door_open</sprite>
-    <sprite>sprites\spr_door_r</sprite>
     <sprite>sprites\spr_false_mirror</sprite>
     <sprite>sprites\spr_mirror</sprite>
     <sprite>sprites\spr_mirror_eye</sprite>
@@ -83,6 +79,16 @@
       <sprite>sprites\spr_shmotshelf_0</sprite>
       <sprite>sprites\spr_shortshelf</sprite>
       <sprite>sprites\spr_bookshelf</sprite>
+    </sprites>
+    <sprites name="spr_menu">
+      <sprite>sprites\spr_start</sprite>
+      <sprite>sprites\spr_exit</sprite>
+    </sprites>
+    <sprites name="spr_doors">
+      <sprite>sprites\spr_door_close</sprite>
+      <sprite>sprites\spr_door_l</sprite>
+      <sprite>sprites\spr_door_open</sprite>
+      <sprite>sprites\spr_door_r</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -136,6 +142,12 @@
         <object>objects\obj_picture_3</object>
         <object>objects\obj_picture_4</object>
       </objects>
+    </objects>
+    <objects name="obj_doors">
+      <object>objects\obj_door_open</object>
+      <object>objects\obj_door_l</object>
+      <object>objects\obj_door_r</object>
+      <object>objects\obj_door_close</object>
     </objects>
   </objects>
   <rooms name="rooms">
