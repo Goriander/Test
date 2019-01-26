@@ -36,8 +36,6 @@
       <sprite>sprites\spr_axe_punch_r</sprite>
     </sprites>
     <sprite>sprites\spr_bed</sprite>
-    <sprite>sprites\spr_bookshelf</sprite>
-    <sprite>sprites\spr_bookshelf_1</sprite>
     <sprite>sprites\spr_box</sprite>
     <sprite>sprites\spr_chair</sprite>
     <sprite>sprites\spr_clatch</sprite>
@@ -49,30 +47,34 @@
     <sprite>sprites\spr_false_mirror</sprite>
     <sprite>sprites\spr_mirror</sprite>
     <sprite>sprites\spr_mirror_eye</sprite>
-    <sprite>sprites\spr_picture_0</sprite>
-    <sprite>sprites\spr_picture_1</sprite>
-    <sprite>sprites\spr_picture_2</sprite>
-    <sprite>sprites\spr_picture_3</sprite>
-    <sprite>sprites\spr_picture_4</sprite>
     <sprite>sprites\spr_pott_0</sprite>
     <sprite>sprites\spr_pott_1</sprite>
     <sprite>sprites\spr_pott_2</sprite>
     <sprite>sprites\spr_pott_3</sprite>
-    <sprite>sprites\spr_shelf</sprite>
-    <sprite>sprites\spr_shmotshelf_0</sprite>
-    <sprite>sprites\spr_shortshelf</sprite>
     <sprite>sprites\spr_spider</sprite>
     <sprite>sprites\spr_stairway_r</sprite>
     <sprite>sprites\spr_starway_l</sprite>
     <sprite>sprites\spr_table</sprite>
     <sprite>sprites\spr_taburet</sprite>
     <sprite>sprites\spr_tumba</sprite>
-    <sprite>sprites\spr_window_d</sprite>
     <sprite>sprites\spr_window_monster</sprite>
-    <sprite>sprites\spr_window_n</sprite>
     <sprite>sprites\spr_slime_0</sprite>
     <sprite>sprites\spr_smile_1</sprite>
     <sprite>sprites\spr_slime_2</sprite>
+    <sprites name="used">
+      <sprite>sprites\spr_picture_4</sprite>
+      <sprite>sprites\spr_window_n</sprite>
+      <sprite>sprites\spr_bookshelf_1</sprite>
+      <sprite>sprites\spr_window_d</sprite>
+      <sprite>sprites\spr_picture_2</sprite>
+      <sprite>sprites\spr_picture_0</sprite>
+      <sprite>sprites\spr_shelf</sprite>
+      <sprite>sprites\spr_picture_1</sprite>
+      <sprite>sprites\spr_picture_3</sprite>
+      <sprite>sprites\spr_shmotshelf_0</sprite>
+      <sprite>sprites\spr_shortshelf</sprite>
+      <sprite>sprites\spr_bookshelf</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -96,6 +98,26 @@
       <object>objects\obj_note_on_floor</object>
     </objects>
     <object>objects\obj_deathimg</object>
+    <objects name="Decoration">
+      <objects name="shelfs">
+        <object>objects\obj_bookshelf_0</object>
+        <object>objects\obj_bookshelf_1</object>
+        <object>objects\obj_shelf</object>
+        <object>objects\obj_shmotshelf</object>
+        <object>objects\obj_shortshelf</object>
+      </objects>
+      <objects name="windows">
+        <object>objects\obj_window_night</object>
+        <object>objects\obj_window_day</object>
+      </objects>
+      <objects name="pictures">
+        <object>objects\obj_picture_0</object>
+        <object>objects\obj_picture_1</object>
+        <object>objects\obj_picture_2</object>
+        <object>objects\obj_picture_3</object>
+        <object>objects\obj_picture_4</object>
+      </objects>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_menu</room>
