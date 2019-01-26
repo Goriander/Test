@@ -48,13 +48,24 @@
     <sprite>sprites\spr_window_monster</sprite>
     <sprite>sprites\spr_slime_0</sprite>
     <sprite>sprites\spr_smile_1</sprite>
+    <sprite>sprites\spr_bath</sprite>
+    <sprite>sprites\spr_bath_dry</sprite>
     <sprite>sprites\spr_slime_2</sprite>
+    <sprite>sprites\spr_stairwaytohaven</sprite>
     <sprites name="used">
       <sprite>sprites\spr_picture_4</sprite>
       <sprite>sprites\spr_window_n</sprite>
+      <sprite>sprites\spr_emptyaxestand</sprite>
       <sprite>sprites\spr_table</sprite>
+      <sprite>sprites\spr_jarka</sprite>
+      <sprite>sprites\spr_shwabra_and_widro</sprite>
+      <sprite>sprites\spr_naunchaki</sprite>
       <sprite>sprites\spr_pott_1</sprite>
+      <sprite>sprites\spr_medic</sprite>
+      <sprite>sprites\spr_bathstaff</sprite>
       <sprite>sprites\spr_bed</sprite>
+      <sprite>sprites\spr_jar</sprite>
+      <sprite>sprites\spr_hamer</sprite>
       <sprite>sprites\spr_chair</sprite>
       <sprite>sprites\spr_mirror</sprite>
       <sprite>sprites\spr_tumba</sprite>
@@ -85,6 +96,7 @@
     <font>fonts\font_0</font>
   </fonts>
   <objects name="objects">
+    <object>objects\obj_deathimg</object>
     <object>objects\obj_hero</object>
     <objects name="obj_menu">
       <object>objects\obj_start</object>
@@ -97,7 +109,6 @@
       <object>objects\obj_button_new</object>
       <object>objects\obj_note_on_floor</object>
     </objects>
-    <object>objects\obj_deathimg</object>
     <objects name="Decoration">
       <objects name="shelfs">
         <object>objects\obj_bookshelf_0</object>
@@ -133,6 +144,16 @@
         <object>objects\obj_pott_2</object>
         <object>objects\obj_pott_3</object>
       </objects>
+    </objects>
+    <objects name="wallstuff">
+      <object>objects\obj_hammer</object>
+      <object>objects\obj_jar</object>
+      <object>objects\obj_shwabra_and_widro</object>
+      <object>objects\obj_naunchaki</object>
+      <object>objects\obj_jarka</object>
+      <object>objects\obj_bathstuff</object>
+      <object>objects\obj_medic</object>
+      <object>objects\obj_emptyaxestand</object>
     </objects>
   </objects>
   <rooms name="rooms">
