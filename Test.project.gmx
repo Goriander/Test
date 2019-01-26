@@ -86,6 +86,9 @@
       <sprite>sprites\spr_shortshelf</sprite>
       <sprite>sprites\spr_bookshelf</sprite>
     </sprites>
+    <sprite>sprites\obj_background_0</sprite>
+    <sprite>sprites\obj_background_3</sprite>
+    <sprite>sprites\obj_background_1</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
