@@ -123,6 +123,7 @@
     <sprite>sprites\spr_radio</sprite>
     <sprite>sprites\spr_generator</sprite>
     <sprite>sprites\sprite102</sprite>
+    <sprite>sprites\spr_bath_animation</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_menu</background>
