@@ -28,6 +28,7 @@
             <string>///Оголошення змінних
 current_room=room
 X=x
+Y=y
 </string>
           </argument>
         </arguments>
@@ -51,10 +52,11 @@ X=x
           <argument>
             <kind>1</kind>
             <string>///Викидування за межі екрану
-if room!=current_room
+if current_room!=room
     {
-    if y&gt;200
+    if y&gt;200 &amp;&amp; triger=true
         {
+        triger=false
         X=x
         x=-1000
         }
@@ -63,7 +65,9 @@ else
     {
     if y&gt;200
         {
+        triger=true
         x=X
+        y=Y
         }
     }
 </string>
@@ -114,9 +118,10 @@ obj_hero.collision_object=self.id
             <kind>1</kind>
             <string>///Викидання предмета
 current_room=room_get_name(room)
-X=x
-self.x=obj_hero.x
+self.x=obj_hero.x+128
 self.y=obj_hero.y+225
+X=x
+Y=y
 obj_hero.inventory_have-=1
 </string>
           </argument>

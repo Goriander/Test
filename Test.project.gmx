@@ -21,6 +21,7 @@
       <sprite>sprites\spr_lamp</sprite>
       <sprite>sprites\spr_candle</sprite>
       <sprite>sprites\spr_cassette</sprite>
+      <sprite>sprites\spr_health</sprite>
     </sprites>
     <sprites name="spr_lighting">
       <sprite>sprites\spr_dark</sprite>
@@ -46,7 +47,6 @@
       <sprite>sprites\spr_pregrada</sprite>
     </sprites>
     <sprite>sprites\spr_clatch</sprite>
-    <sprite>sprites\spr_deathimg</sprite>
     <sprite>sprites\spr_false_mirror</sprite>
     <sprite>sprites\spr_mirror_eye</sprite>
     <sprite>sprites\spr_spider</sprite>
@@ -100,6 +100,7 @@
     <sprite>sprites\spr_bath_bg_0</sprite>
     <sprite>sprites\spr_bath_bg_1</sprite>
     <sprite>sprites\spr_bath_bg_2</sprite>
+    <sprite>sprites\spr_water</sprite>
     <sprite>sprites\spr_bath</sprite>
     <sprite>sprites\spr_soap</sprite>
     <sprite>sprites\spr_medic</sprite>
@@ -111,6 +112,7 @@
     <sprites name="spr_kartinki">
       <sprite>sprites\spr_sunrise</sprite>
       <sprite>sprites\spr_night</sprite>
+      <sprite>sprites\spr_deathimg</sprite>
     </sprites>
     <sprite>sprites\spr_ramka_l</sprite>
     <sprite>sprites\spr_ramka_r</sprite>
@@ -149,8 +151,8 @@
       <object>objects\obj_lamp</object>
       <object>objects\obj_candle</object>
       <object>objects\obj_cassette</object>
+      <object>objects\obj_health</object>
     </objects>
-    <object>objects\obj_deathimg</object>
     <objects name="Decoration">
       <objects name="shelfs">
         <object>objects\obj_bookshelf_0</object>
@@ -217,6 +219,7 @@
     <objects name="obj_kartinki">
       <object>objects\obj_sunrise</object>
       <object>objects\obj_night</object>
+      <object>objects\obj_deathimg</object>
     </objects>
     <object>objects\obj_ramka_d</object>
     <object>objects\obj_ramka_u</object>
@@ -224,6 +227,9 @@
     <object>objects\obj_ramka_r</object>
     <object>objects\obj_radio</object>
     <object>objects\obj_generator</object>
+    <objects name="obj_monsters">
+      <object>objects\obj_mirror_monster</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_menu</room>
