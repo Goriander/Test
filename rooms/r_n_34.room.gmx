@@ -3,12 +3,12 @@
   <caption></caption>
   <width>1280</width>
   <height>720</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>1</vsnap>
+  <hsnap>1</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>-1</persistent>
-  <colour>12632256</colour>
+  <colour>0</colour>
   <showcolour>-1</showcolour>
   <code>obj_note_ico.current_room=34</code>
   <enableViews>0</enableViews>
@@ -50,7 +50,28 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
-  <instances/>
+  <instances>
+    <instance objName="obj_background_0" x="367" y="164" name="inst_B21A8326" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_background_2" x="463" y="164" name="inst_98777152" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_background_2" x="591" y="164" name="inst_81278EA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_background_2" x="687" y="164" name="inst_3D1C9CF3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_background_1" x="815" y="164" name="inst_BB4FE45F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_shelf" x="591" y="274" name="inst_FB283B8E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_jar" x="630" y="201" name="inst_257ECAE7" locked="0" code="" scaleX="0.600000023841858" scaleY="0.610000014305115" colour="4294967295" rotation="0"/>
+    <instance objName="obj_jar" x="681" y="284" name="inst_1E7111F7" locked="0" code="" scaleX="0.600000023841858" scaleY="0.610000014305115" colour="4294967295" rotation="0"/>
+    <instance objName="obj_jar" x="629" y="367" name="inst_0F00B768" locked="0" code="" scaleX="0.600000023841858" scaleY="0.610000014305115" colour="4294967295" rotation="0"/>
+    <instance objName="obj_alonejar" x="658" y="247" name="inst_AC37ECBA" locked="0" code="" scaleX="0.498039215803146" scaleY="0.588235318660736" colour="4294967295" rotation="0"/>
+    <instance objName="obj_alonejar" x="590" y="288" name="inst_7D41B645" locked="0" code="" scaleX="0.498039215803146" scaleY="0.588235318660736" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pregrada" x="911" y="68" name="inst_1B86E706" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pregrada" x="367" y="164" name="inst_239329A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ramka_l" x="312" y="104" name="inst_D9AD2FC8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ramka_r" x="719" y="104" name="inst_56532CCB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ramka_u" x="451" y="-88" name="inst_E8FE8D74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ramka_u" x="618" y="-88" name="inst_7A4B35C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ramka_d" x="452" y="560" name="inst_A280AEF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ramka_d" x="638" y="560" name="inst_ACECD065" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door_l" x="272" y="295" name="inst_EB5562A5" locked="0" code="if obj_hero.night=false&#xA;    path=r_d_7&#xA;path_x= 640&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+  </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
