@@ -3,8 +3,8 @@
   <caption></caption>
   <width>1280</width>
   <height>720</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>1</vsnap>
+  <hsnap>1</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>-1</persistent>
@@ -75,6 +75,18 @@
     <instance objName="obj_pregrada" x="144" y="-2" name="inst_9DFA918D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door_l" x="49" y="300" name="inst_08AEE54F" locked="0" code="if obj_hero.night=false&#xA;    path=r_d_10&#xA;path_x=512&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door_r" x="965" y="301" name="inst_825F5A50" locked="0" code="if obj_hero.night=false&#xA;    path=r_d_12&#xA;path_x=512&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ramka_l" x="89" y="100" name="inst_54292F75" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ramka_r" x="925" y="100" name="inst_2A17A764" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ramka_d" x="417" y="556" name="inst_53002F6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ramka_d" x="229" y="556" name="inst_162FD98D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ramka_d" x="605" y="556" name="inst_F57445A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ramka_d" x="805" y="556" name="inst_DD81966B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ramka_d" x="711" y="556" name="inst_C966C03C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ramka_u" x="805" y="-92" name="inst_948FB342" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ramka_u" x="618" y="-92" name="inst_A3E802DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ramka_u" x="430" y="-92" name="inst_A00BEB18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ramka_u" x="227" y="-92" name="inst_802CF9A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ramka_u" x="361" y="-92" name="inst_178696DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
