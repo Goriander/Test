@@ -52,12 +52,12 @@ if obj_hero.night=false
           <argument>
             <kind>1</kind>
             <string>///Переміщення
-if eyboard_key=vk_space
+if keyboard_key=vk_space
     {
     if obj_hero.collision_object=-1
         {
-        room_goto(path)
         obj_hero.x=path_x
+        room_goto(path)
         }
     }
 </string>

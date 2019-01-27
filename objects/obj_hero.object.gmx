@@ -621,8 +621,10 @@ if sprite_index=spr_chose_down_l
           <argument>
             <kind>1</kind>
             <string>///Відрисовка світла
+var test
 draw_self()
-
+test=room_get_name(room)
+draw_text(200,200,string(test))
 if !candle &amp;&amp; !lamp &amp;&amp; night
     draw_sprite(spr_dark,0,0,0)
 

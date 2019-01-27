@@ -36,7 +36,7 @@ ds_list_add(list,'Тут ви можете залишати записки, та
 draw_set_font(font_0)
 
 
-room_vec[1]=false   //r_bedroom
+room_vec[1]=false   
 room_vec[2]=false
 room_vec[3]=false
 room_vec[4]=false
@@ -45,7 +45,37 @@ room_vec[6]=false
 room_vec[7]=false
 room_vec[8]=false
 room_vec[9]=false
-room_vec[10]=false  //r_guest
+room_vec[10]=false  
+room_vec[11]=false  
+room_vec[12]=false
+room_vec[13]=false
+room_vec[14]=false
+room_vec[15]=false
+room_vec[16]=false
+room_vec[17]=false
+room_vec[18]=false
+room_vec[19]=false
+room_vec[20]=false
+room_vec[21]=false   
+room_vec[22]=false
+room_vec[23]=false
+room_vec[24]=false
+room_vec[25]=false
+room_vec[26]=false
+room_vec[27]=false
+room_vec[28]=false
+room_vec[29]=false
+room_vec[30]=false
+room_vec[31]=false  
+room_vec[32]=false
+room_vec[33]=false
+room_vec[34]=false
+room_vec[35]=false
+room_vec[36]=false
+room_vec[37]=false
+room_vec[38]=false
+room_vec[39]=false
+room_vec[40]=false
 
 
 

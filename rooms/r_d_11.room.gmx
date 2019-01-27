@@ -71,8 +71,10 @@
     <instance objName="obj_knife" x="493" y="89" name="inst_7AEDA26E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_knife" x="542" y="89" name="inst_2D02795B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_knife" x="588" y="88" name="inst_DC1F25BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_pregrada" x="1096" y="128" name="inst_24018357" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_pregrada" x="175" y="84" name="inst_9DFA918D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pregrada" x="1121" y="0" name="inst_24018357" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pregrada" x="144" y="-2" name="inst_9DFA918D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door_l" x="49" y="300" name="inst_08AEE54F" locked="0" code="if obj_hero.night=false&#xA;    path=r_d_10&#xA;path_x=512&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door_r" x="965" y="301" name="inst_825F5A50" locked="0" code="if obj_hero.night=false&#xA;    path=r_d_12&#xA;path_x=512&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
