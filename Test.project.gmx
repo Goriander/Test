@@ -111,13 +111,13 @@
     <sprites name="spr_kartinki">
       <sprite>sprites\spr_sunrise</sprite>
       <sprite>sprites\spr_night</sprite>
+    </sprites>
     <sprite>sprites\spr_ramka_l</sprite>
     <sprite>sprites\spr_ramka_r</sprite>
     <sprite>sprites\spr_ramka_up</sprite>
     <sprite>sprites\spr_ramka_down</sprite>
     <sprite>sprites\spr_radio</sprite>
     <sprite>sprites\spr_generator</sprite>
-
   </sprites>
   <backgrounds name="background">
     <background>background\bg_menu</background>
@@ -217,6 +217,7 @@
     <objects name="obj_kartinki">
       <object>objects\obj_sunrise</object>
       <object>objects\obj_night</object>
+    </objects>
     <object>objects\obj_ramka_d</object>
     <object>objects\obj_ramka_u</object>
     <object>objects\obj_ramka_l</object>
