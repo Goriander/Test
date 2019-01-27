@@ -181,6 +181,8 @@
         <object>objects\obj_door_l</object>
         <object>objects\obj_door_r</object>
         <object>objects\obj_door_close</object>
+        <object>objects\obj_steirway_r</object>
+        <object>objects\obj_steirway_l</object>
       </objects>
     </objects>
     <object>objects\obj_pregrada</object>

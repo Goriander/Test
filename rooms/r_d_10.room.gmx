@@ -70,9 +70,10 @@
     <instance objName="obj_alonejar" x="555" y="324" name="inst_339C7140" locked="0" code="" scaleX="0.5" scaleY="0.625" colour="4294967295" rotation="0"/>
     <instance objName="obj_jar" x="641" y="363" name="inst_E8932BB0" locked="0" code="" scaleX="0.625" scaleY="0.625" colour="4294967295" rotation="0"/>
     <instance objName="obj_picture_4" x="606" y="171" name="inst_4AF60C42" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_pregrada" x="158" y="171" name="inst_19CC805F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_pregrada" x="1161" y="-21" name="inst_7FA519F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pregrada" x="121" y="-1" name="inst_19CC805F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pregrada" x="1190" y="0" name="inst_7FA519F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sheet" x="382" y="395" name="inst_EB880901" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door_r" x="1034" y="312" name="inst_951F52EC" locked="0" code="if obj_hero.night=false&#xA;    path=r_d_11&#xA;path_x=512&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

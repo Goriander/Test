@@ -58,9 +58,10 @@
     <instance objName="obj_background_2" x="705" y="169" name="inst_C2B9AAF4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_shortshelf" x="378" y="273" name="inst_C7910C4B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_picture_2" x="379" y="236" name="inst_976C51E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_slime_0" x="573" y="292" name="inst_7D5387E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_pregrada" x="369" y="64" name="inst_EBE4C908" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_pregrada" x="918" y="64" name="inst_794BF2AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_slime_0" x="513" y="290" name="inst_7D5387E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pregrada" x="348" y="-2" name="inst_EBE4C908" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pregrada" x="937" y="1" name="inst_794BF2AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_steirway_l" x="669" y="409" name="inst_31842C7C" locked="0" code="if obj_hero.night=false&#xA;    path=r_d_4&#xA;path_x=512&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
