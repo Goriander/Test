@@ -124,6 +124,7 @@
     <sprite>sprites\spr_generator</sprite>
     <sprite>sprites\sprite102</sprite>
     <sprite>sprites\spr_bath_animation</sprite>
+    <sprite>sprites\spr_logo</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_menu</background>
@@ -237,8 +238,10 @@
     <objects name="obj_monsters">
       <object>objects\obj_mirror_monster</object>
     </objects>
+    <object>objects\obj_logo</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room58</room>
     <room>rooms\r_menu</room>
     <rooms name="r_d">
       <room>rooms\r_d_1</room>
