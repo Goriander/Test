@@ -108,6 +108,12 @@
     <sprite>sprites\spr_plitka</sprite>
     <sprite>sprites\spr_knife</sprite>
     <sprite>sprites\spr_desc</sprite>
+    <sprite>sprites\spr_ramka_l</sprite>
+    <sprite>sprites\spr_ramka_r</sprite>
+    <sprite>sprites\spr_ramka_up</sprite>
+    <sprite>sprites\spr_ramka_down</sprite>
+    <sprite>sprites\spr_radio</sprite>
+    <sprite>sprites\spr_generator</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_menu</background>
@@ -204,6 +210,12 @@
     <object>objects\obj_plitka</object>
     <object>objects\obj_knife</object>
     <object>objects\obj_desc</object>
+    <object>objects\obj_ramka_d</object>
+    <object>objects\obj_ramka_u</object>
+    <object>objects\obj_ramka_l</object>
+    <object>objects\obj_ramka_r</object>
+    <object>objects\obj_radio</object>
+    <object>objects\obj_generator</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_menu</room>
