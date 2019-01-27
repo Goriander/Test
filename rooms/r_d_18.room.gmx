@@ -76,6 +76,8 @@
     <instance objName="obj_pott_3" x="660" y="272" name="inst_0826C51B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pott_0" x="758" y="307" name="inst_208FEA01" locked="0" code="" scaleX="0.709803938865662" scaleY="0.72265625" colour="4294967295" rotation="0"/>
     <instance objName="obj_pott_2" x="337" y="258" name="inst_DF50B782" locked="0" code="" scaleX="1.05999994277954" scaleY="1.11372554302216" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door_l" x="158" y="292" name="inst_E04BF58C" locked="0" code="if obj_hero.night=false&#xA;    path=r_d_17&#xA;path_x=1000&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door_r" x="905" y="297" name="inst_E1AAB479" locked="0" code="if obj_hero.night=false&#xA;    path=r_d_12&#xA;path_x=800&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

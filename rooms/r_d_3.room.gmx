@@ -63,12 +63,12 @@
     <instance objName="obj_picture_0" x="654" y="209" name="inst_8C02D87F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pregrada" x="266" y="-4" name="inst_738E9C79" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pregrada" x="1015" y="-2" name="inst_46567D2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door_l" x="171" y="305" name="inst_0ACEEF8B" locked="0" code="if obj_hero.night=false&#xA;    path=r_d_2&#xA;path_x=512&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door_r" x="859" y="305" name="inst_87CD1F37" locked="0" code="if obj_hero.night=false&#xA;    path=r_d_4&#xA;path_x=512&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_steirway_l" x="653" y="405" name="inst_612A8679" locked="0" code="if obj_hero.night=false&#xA;    path=r_d_8&#xA;path_x=512&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ramka_l" x="212" y="105" name="inst_B8F02F85" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ramka_r" x="819" y="105" name="inst_E5E7277B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ramka_u" x="352" y="-87" name="inst_7EC75CA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door_l" x="172" y="306" name="inst_0ACEEF8B" locked="0" code="if obj_hero.night=false&#xA;    path=r_d_2&#xA;path_x=940&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door_r" x="859" y="305" name="inst_87CD1F37" locked="0" code="if obj_hero.night=false&#xA;    path=r_d_4&#xA;path_x=375&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_steirway_l" x="591" y="402" name="inst_612A8679" locked="0" code="if obj_hero.night=false&#xA;    path=r_d_8&#xA;path_x=833&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ramka_l" x="214" y="105" name="inst_B8F02F85" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ramka_r" x="820" y="106" name="inst_E5E7277B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ramka_u" x="353" y="-87" name="inst_7EC75CA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ramka_u" x="728" y="-87" name="inst_E735C0BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ramka_u" x="540" y="-87" name="inst_E2ACC4D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ramka_d" x="699" y="561" name="inst_01F283E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

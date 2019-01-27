@@ -56,7 +56,7 @@ if keyboard_key=vk_space
     {
     //if obj_hero.collision_object=-1
      //   {
-        obj_hero.x=path_x
+        obj_hero.x=path_x-110
         room_goto(path)
       //  }
     }
