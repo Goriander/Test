@@ -108,6 +108,10 @@
     <sprite>sprites\spr_plitka</sprite>
     <sprite>sprites\spr_knife</sprite>
     <sprite>sprites\spr_desc</sprite>
+    <sprites name="spr_kartinki">
+      <sprite>sprites\spr_sunrise</sprite>
+      <sprite>sprites\spr_night</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_menu</background>
@@ -204,6 +208,10 @@
     <object>objects\obj_plitka</object>
     <object>objects\obj_knife</object>
     <object>objects\obj_desc</object>
+    <objects name="obj_kartinki">
+      <object>objects\obj_sunrise</object>
+      <object>objects\obj_night</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_menu</room>

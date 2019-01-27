@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -26,9 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>///Оголошення змінних
-current_room=room_get_name(room)
+current_room=room
 X=x
-Y=y
 </string>
           </argument>
         </arguments>
@@ -52,12 +51,12 @@ Y=y
           <argument>
             <kind>1</kind>
             <string>///Викидування за межі екрану
-if room_get_name(room)!=current_room
+if room!=current_room
     {
     if y&gt;200
         {
         X=x
-        x=-100
+        x=-1000
         }
     }
 else

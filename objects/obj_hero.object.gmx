@@ -35,7 +35,61 @@ inventory_target='none'
 candle=false
 lamp=false
 night=false
+alarm[0]=1800
 
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Night left
+//if !instance_exists(obj_sunrise)
+//    instance_create(0,0,obj_sunrise)
+//alarm[0]=3600
+sprite_index=spr_death_r
+image_speed=0.4
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///day left
+sprite_index=spr_death_r
+image_speed=0.4
 </string>
           </argument>
         </arguments>
@@ -183,6 +237,44 @@ if hspeed&lt;0
         </arguments>
       </action>
     </event>
+    <event eventtype="4" ename="obj_bed">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Лягання спати
+if keyboard_key=vk_space
+    {
+    if night=true
+        {
+        if instance_exists(obj_sunrise)=false
+            instance_create(0,0,obj_sunrise)
+        //alarm[1]=7200
+        }
+    else
+        {
+        if instance_exists(obj_night)=false
+            instance_create(0,0,obj_night)
+        //alarm[0]=1
+        }
+    }
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="4" ename="obj_cassette">
       <action>
         <libid>1</libid>
@@ -256,7 +348,7 @@ if keyboard_check_pressed(vk_space)
             <string>///Підняття 
 if keyboard_check_pressed(vk_space)
     {
-    if inventory_have&lt;2
+    if inventory_have&lt;2 &amp;&amp; lamp=false
         {
         inventory_have+=1
         collision_object.x=100*inventory_have
@@ -310,7 +402,7 @@ if keyboard_check_pressed(vk_space)
             <string>///Підняття 
 if keyboard_check_pressed(vk_space)
     {
-    if inventory_have&lt;2
+    if inventory_have&lt;2 &amp;&amp; candle=false
         {
         inventory_have+=1
         collision_object.x=100*inventory_have
@@ -598,6 +690,26 @@ if sprite_index=spr_chose_down_l
     image_speed = 0
     image_index = 1;
     }
+
+if sprite_index=spr_death_r
+    {
+    //if !instance_exists(obj_night)
+    if night=false
+        {
+        sprite_index=spr_hero
+        image_speed=0
+        instance_create(0,0,obj_night)
+        alarm[0]=3600
+        }
+    else
+        {
+        sprite_index=spr_hero
+        image_speed=0
+        instance_create(0,0,obj_sunrise)
+        alarm[1]=3600
+        }
+    
+    }
 </string>
           </argument>
         </arguments>
@@ -621,18 +733,18 @@ if sprite_index=spr_chose_down_l
           <argument>
             <kind>1</kind>
             <string>///Відрисовка світла
-var test
+//var test
 draw_self()
-test=room_get_name(room)
-draw_text(200,200,string(test))
+//test=room_get_name(room)
+//draw_text(200,200,string(test))
 if !candle &amp;&amp; !lamp &amp;&amp; night
-    draw_sprite(spr_dark,0,0,0)
+    draw_sprite_ext(spr_dark,0,0,0,1,1,0,0,0.9)
 
-if candle
-    draw_sprite_ext(spr_candle_light,0,x+130,y+170,1,1,0,0,0.75)
+if candle &amp;&amp; night
+    draw_sprite_ext(spr_candle_light,0,x+130,y+170,1,1,0,0,0.9)
     
-if lamp
-    draw_sprite_ext(spr_lamp_light,0,x+130,y+170,1,1,point_direction(x+130,y+170,mouse_x,mouse_y),0,0.75)
+if lamp &amp;&amp; night
+    draw_sprite_ext(spr_lamp_light,0,x+130,y+170,1,1,point_direction(x+130,y+170,mouse_x,mouse_y),0,0.9)
 </string>
           </argument>
         </arguments>
