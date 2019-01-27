@@ -21,6 +21,7 @@
       <sprite>sprites\spr_lamp</sprite>
       <sprite>sprites\spr_candle</sprite>
       <sprite>sprites\spr_cassette</sprite>
+      <sprite>sprites\spr_yad</sprite>
       <sprite>sprites\spr_health</sprite>
     </sprites>
     <sprites name="spr_lighting">
@@ -154,6 +155,7 @@
       <object>objects\obj_candle</object>
       <object>objects\obj_cassette</object>
       <object>objects\obj_health</object>
+      <object>objects\obj_yad</object>
     </objects>
     <objects name="Decoration">
       <objects name="shelfs">
@@ -214,7 +216,6 @@
     <object>objects\obj_bath_dry</object>
     <object>objects\obj_soap</object>
     <object>objects\obj_medic</object>
-    <object>objects\obj_slime_0</object>
     <object>objects\obj_jar</object>
     <object>objects\obj_alonejar</object>
     <object>objects\obj_plitka</object>
@@ -234,6 +235,9 @@
     <object>objects\obj_stairway_r</object>
     <objects name="obj_monsters">
       <object>objects\obj_mirror_monster</object>
+      <object>objects\obj_slime</object>
+      <object>objects\obj_slime_yad</object>
+      <object>objects\obj_slime_0</object>
     </objects>
   </objects>
   <rooms name="rooms">
