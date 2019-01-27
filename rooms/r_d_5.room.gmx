@@ -61,13 +61,13 @@
     <instance objName="obj_slime_0" x="513" y="290" name="inst_7D5387E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pregrada" x="348" y="-2" name="inst_EBE4C908" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pregrada" x="937" y="1" name="inst_794BF2AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_steirway_l" x="669" y="409" name="inst_31842C7C" locked="0" code="if obj_hero.night=false&#xA;    path=r_d_4&#xA;path_x=512&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ramka_l" x="293" y="109" name="inst_BF33B442" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ramka_r" x="741" y="109" name="inst_446CEF80" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ramka_u" x="621" y="-83" name="inst_CEEEB735" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ramka_u" x="432" y="-83" name="inst_3AD3C9DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ramka_d" x="433" y="565" name="inst_27CB43E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ramka_d" x="621" y="565" name="inst_6B651859" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ramka_d" x="623" y="563" name="inst_6B651859" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_steirway_r" x="699" y="410" name="inst_1057F08E" locked="0" code="if obj_hero.night=false&#xA;    path=r_d_4&#xA;path_x=880&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -65,9 +65,9 @@
     <instance objName="obj_medic" x="780" y="160" name="inst_4087FEE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pregrada" x="230" y="-3" name="inst_96551DE7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pregrada" x="1048" y="-2" name="inst_D7903F47" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door_l" x="136" y="300" name="inst_793C2FD7" locked="0" code="if obj_hero.night=false&#xA;    path=r_d_1&#xA;path_x=512&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door_r" x="896" y="304" name="inst_37FB7301" locked="0" code="if obj_hero.night=false&#xA;    path=r_d_3&#xA;path_x=512&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ramka_l" x="176" y="99" name="inst_39DDD9A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door_l" x="136" y="300" name="inst_793C2FD7" locked="0" code="if obj_hero.night=false&#xA;    path=r_d_1&#xA;path_x=1024&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door_r" x="897" y="304" name="inst_37FB7301" locked="0" code="if obj_hero.night=false&#xA;    path=r_d_3&#xA;path_x=330&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ramka_l" x="178" y="99" name="inst_39DDD9A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ramka_r" x="852" y="100" name="inst_63AB42DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ramka_d" x="316" y="555" name="inst_1607B6E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ramka_d" x="504" y="555" name="inst_9A25D76B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

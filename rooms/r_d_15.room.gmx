@@ -71,6 +71,7 @@
     <instance objName="obj_ramka_d" x="671" y="557" name="inst_9E683422" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ramka_d" x="483" y="557" name="inst_AE33C11F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ramka_d" x="306" y="557" name="inst_32577E38" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door_l" x="209" y="294" name="inst_0FD9BC45" locked="0" code="if obj_hero.night=false&#xA;    path=r_d_13&#xA;path_x=598&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

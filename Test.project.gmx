@@ -52,6 +52,8 @@
     <sprite>sprites\spr_spider</sprite>
     <sprite>sprites\spr_stairway_r</sprite>
     <sprite>sprites\spr_starway_l</sprite>
+    <sprite>sprites\spr_stairwai_up</sprite>
+    <sprite>sprites\spr_stairway_l</sprite>
     <sprite>sprites\spr_window_monster</sprite>
     <sprite>sprites\spr_slime_0</sprite>
     <sprite>sprites\spr_smile_1</sprite>
@@ -191,6 +193,8 @@
       <objects name="obj_doors">
         <object>objects\obj_door_open</object>
         <object>objects\obj_door_l</object>
+        <object>objects\obj_u_strw_r</object>
+        <object>objects\obj_u_strw_l</object>
         <object>objects\obj_door_r</object>
         <object>objects\obj_door_close</object>
         <object>objects\obj_steirway_r</object>
@@ -227,6 +231,7 @@
     <object>objects\obj_ramka_r</object>
     <object>objects\obj_radio</object>
     <object>objects\obj_generator</object>
+    <object>objects\obj_stairway_r</object>
     <objects name="obj_monsters">
       <object>objects\obj_mirror_monster</object>
     </objects>

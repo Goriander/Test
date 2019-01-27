@@ -66,13 +66,13 @@
     <instance objName="obj_picture_3" x="239" y="196" name="inst_03BF3D77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hero" x="129" y="291" name="inst_E7C9F115" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_note_ico" x="32" y="32" name="inst_112552F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door_r" x="945" y="303" name="inst_3832AD5D" locked="0" code="//if obj_hero.night=false&#xA;    path=r_d_7&#xA;path_x=352" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door_r" x="944" y="303" name="inst_3832AD5D" locked="0" code="if obj_hero.night=false&#xA;    path=r_d_7&#xA;path_x=320&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pregrada" x="1103" y="1" name="inst_0D43247B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pregrada" x="192" y="0" name="inst_1AAB0FAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lamp" x="608" y="512" name="inst_04C3B98D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_candle" x="736" y="384" name="inst_F7F9AA7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ramka_l" x="137" y="104" name="inst_B4885D16" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ramka_r" x="906" y="104" name="inst_907FD41A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ramka_r" x="907" y="104" name="inst_907FD41A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ramka_u" x="277" y="-88" name="inst_56BD86EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ramka_u" x="465" y="-88" name="inst_FB9E30EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ramka_u" x="653" y="-88" name="inst_16139920" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
