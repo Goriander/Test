@@ -3,7 +3,7 @@
   <spriteName>spr_night</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-2</depth>
+  <depth>-21</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -55,9 +55,9 @@ if image_alpha&lt;1
 else
     {
     obj_hero.x=416
-    obj_hero.alarm[1]=1800
+    obj_hero.alarm[1]=7200
     obj_hero.night=true
-    room_goto(r_d_6)
+    room_goto(r_n_24)
     instance_destroy()
     }
 obj_hero.hspeed=0

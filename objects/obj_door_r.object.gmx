@@ -26,9 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>///Шлях куди веде дверь
-//if obj_hero.night=true
-//    path=choose(r_n_19,r_n_20,r_n_21,r_n_22,r_n_23,r_n_24,r_n_25,r_n_26,r_n_27,r_n_28,r_n_29,r_n_30,r_n_32,r_n_33,r_n_34,r_n_35)
-
+if obj_hero.night=true
+    path=choose(r_n_19,r_n_20,r_n_21,r_n_22,r_n_23,r_n_24,r_n_25,r_n_26,r_n_27,r_n_28,r_n_29,r_n_30,r_n_31,r_n_33,r_n_34,r_n_35)
 </string>
           </argument>
         </arguments>
@@ -58,6 +57,7 @@ if keyboard_key=vk_space
        // {
         obj_hero.x=path_x-60
         room_goto(path)
+        audio_play_sound(choose(snd_door_1,snd_door_2),1,false)
        // }
     }
 </string>

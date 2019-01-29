@@ -117,12 +117,11 @@ obj_hero.collision_object=self.id
           <argument>
             <kind>1</kind>
             <string>///Викидання предмета
-current_room=room_get_name(room)
+current_room=room
 self.x=obj_hero.x+128
 self.y=obj_hero.y+225
 X=x
 Y=y
-obj_hero.inventory_have-=1
 </string>
           </argument>
         </arguments>
@@ -146,7 +145,7 @@ obj_hero.inventory_have-=1
           <argument>
             <kind>1</kind>
             <string>///Вибирання об'єкта
-inventory_target='sheet'
+obj_hero.inventory_target='sheet'
 </string>
           </argument>
         </arguments>

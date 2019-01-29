@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>open=false
+            <string>triger=true
+open=false
 current_room=room
 X=x
 Y=y

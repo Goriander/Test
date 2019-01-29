@@ -4,7 +4,19 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snd_door_1</sound>
+    <sound>sound\snd_door_2</sound>
+    <sound>sound\snd_drop_water</sound>
+    <sound>sound\snd_water</sound>
+    <sound>sound\snd_sliz</sound>
+    <sound>sound\snd_kislota</sound>
+    <sound>sound\snd_glass</sound>
+    <sound>sound\snd_monster_dead</sound>
+    <sound>sound\snd_day_1</sound>
+    <sound>sound\snd_day_2</sound>
+    <sound>sound\snd_night</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="spr_note">
       <sprite>sprites\spr_note_iventory</sprite>
@@ -105,6 +117,7 @@
     <sprite>sprites\spr_bath_bg_2</sprite>
     <sprite>sprites\spr_water</sprite>
     <sprite>sprites\spr_bath</sprite>
+    <sprite>sprites\spr_water_bath</sprite>
     <sprite>sprites\spr_soap</sprite>
     <sprite>sprites\spr_medic</sprite>
     <sprite>sprites\spr_jar</sprite>
@@ -195,9 +208,11 @@
       <objects name="obj_doors">
         <object>objects\obj_door_open</object>
         <object>objects\obj_door_l</object>
+        <object>objects\obj_spec_door_l</object>
         <object>objects\obj_u_strw_r</object>
         <object>objects\obj_u_strw_l</object>
         <object>objects\obj_door_r</object>
+        <object>objects\obj_spec_door_r</object>
         <object>objects\obj_door_close</object>
         <object>objects\obj_steirway_r</object>
         <object>objects\obj_steirway_l</object>
@@ -216,6 +231,7 @@
     <object>objects\obj_bath_dry</object>
     <object>objects\obj_soap</object>
     <object>objects\obj_medic</object>
+    <object>objects\obj_medic_yad</object>
     <object>objects\obj_jar</object>
     <object>objects\obj_alonejar</object>
     <object>objects\obj_plitka</object>

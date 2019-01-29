@@ -3,7 +3,7 @@
   <spriteName>spr_button_new</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-52</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -29,7 +29,7 @@
 var buffer,roomname
 roomname=room_get_name(room)
 text=get_string('Напишіть записку наступному гравцю','')
-buffer=instance_create(obj_hero.x,obj_hero.y+40,obj_note_on_floor);
+buffer=instance_create(obj_hero.x+128,obj_hero.y+220,obj_note_on_floor);
 buffer.text=text 
 ini_open(roomname+'.ini')
 obj_note_ico.num+=1
