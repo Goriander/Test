@@ -3,7 +3,7 @@
   <spriteName>spr_note_iventory</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-1</depth>
+  <depth>-51</depth>
   <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>///Оголошення змінних
+draw_set_colour(c_black)
 current_room=0
 open=false
 global.list=ds_list_create()
@@ -120,7 +121,7 @@ if room_vec[current_room]=false
         {
         for(i=1;i&lt;=num;i++)
             {
-            buffer=instance_create(ini_read_real(string(i),'x',10),550,obj_note_on_floor)
+            buffer=instance_create(ini_read_real(string(i),'x',10),500,obj_note_on_floor)
             buffer.text=ini_read_string(string(i),'text','none text')
             }
         }
@@ -150,10 +151,40 @@ room_vec[current_room]=true
           <argument>
             <kind>1</kind>
             <string>///Відрисовка тексту
+draw_self()
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_self()
+
 if open
     {
-    draw_text_ext(500+20,0+20,ds_list_find_value(list,current_note),12,472)
-    draw_text(500+256,0+450,string(current_note)+'/'+string(have_note))
+    draw_self()
+    draw_sprite(spr_note_open,0,458,0)
+    draw_set_colour(c_black)
+    //draw_sprite(spr_note_open,0,458,0)
+    draw_text_ext(458+55,180,ds_list_find_value(list,current_note),12,255)
+    draw_text(458+180,510,string(current_note)+'/'+string(have_note))
     }
 
 </string>
@@ -182,9 +213,9 @@ if open
 if !open
     {
     open=true
-    instance_create(550,450,obj_button_new)
-    instance_create(500+400,450,obj_button_left)
-    instance_create(500+450,450,obj_button_right)
+    instance_create(458+40+25,509,obj_button_new)
+    instance_create(458+364-30-45,510,obj_button_right)
+    instance_create(458+364-60-45,510,obj_button_left)
     }
 else
     {

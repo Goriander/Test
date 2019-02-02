@@ -10,7 +10,9 @@
   <persistent>-1</persistent>
   <colour>0</colour>
   <showcolour>-1</showcolour>
-  <code>obj_note_ico.current_room=6</code>
+  <code>obj_note_ico.current_room=6
+obj_note_ico.x=50
+obj_note_ico.y=50</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -62,16 +64,13 @@
     <instance objName="obj_bed" x="230" y="273" name="inst_9E20C723" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_window_day" x="614" y="164" name="inst_D57714D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bookshelf_1" x="556" y="264" name="inst_B525E725" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_pott_2" x="534" y="308" name="inst_4C4A3866" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pott_2" x="534" y="309" name="inst_4C4A3866" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_picture_3" x="239" y="196" name="inst_03BF3D77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_hero" x="129" y="291" name="inst_E7C9F115" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_note_ico" x="32" y="32" name="inst_112552F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door_r" x="944" y="303" name="inst_3832AD5D" locked="0" code="if obj_hero.night=false&#xA;    path=r_d_7&#xA;path_x=320&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_pregrada" x="1103" y="1" name="inst_0D43247B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_pregrada" x="192" y="0" name="inst_1AAB0FAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_lamp" x="608" y="512" name="inst_04C3B98D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_candle" x="736" y="384" name="inst_F7F9AA7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ramka_l" x="137" y="104" name="inst_B4885D16" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hero" x="424" y="287" name="inst_E7C9F115" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door_r" x="944" y="303" name="inst_3832AD5D" locked="0" code="if obj_hero.night=false&#xA;    path=r_d_7&#xA;path_x=320" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pregrada" x="1102" y="-8" name="inst_0D43247B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pregrada" x="-56" y="13" name="inst_1AAB0FAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ramka_l" x="138" y="104" name="inst_B4885D16" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ramka_r" x="907" y="104" name="inst_907FD41A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ramka_u" x="277" y="-88" name="inst_56BD86EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ramka_u" x="465" y="-88" name="inst_FB9E30EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -81,14 +80,13 @@
     <instance objName="obj_ramka_d" x="463" y="561" name="inst_1A65EFC6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ramka_d" x="651" y="560" name="inst_6055E808" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ramka_d" x="829" y="560" name="inst_98191DBA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_pregrada" x="187" y="0" name="inst_88253D3B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_pregrada" x="182" y="0" name="inst_A223D093" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_pregrada" x="177" y="0" name="inst_3F81E2A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_pregrada" x="172" y="0" name="inst_BE8AEE03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_pregrada" x="167" y="0" name="inst_04F87C21" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_medic" x="804" y="147" name="inst_E303BCBB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bath_dry" x="736" y="352" name="inst_0C2C42CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_axe" x="496" y="503" name="inst_EAA9F3C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pregrada" x="192" y="-3" name="inst_88253D3B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pregrada" x="-14" y="6" name="inst_A223D093" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pregrada" x="-21" y="14" name="inst_3F81E2A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pregrada" x="-23" y="10" name="inst_BE8AEE03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pregrada" x="49" y="9" name="inst_04F87C21" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lamp" x="632" y="453" name="inst_B268887A" locked="0" code="" scaleX="0.709999978542328" scaleY="0.534883737564087" colour="4294967295" rotation="0"/>
+    <instance objName="obj_axe" x="754" y="501" name="inst_AA8BB21C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

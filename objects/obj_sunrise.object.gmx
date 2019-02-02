@@ -3,7 +3,7 @@
   <spriteName>spr_sunrise</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-2</depth>
+  <depth>-21</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -55,7 +55,7 @@ if image_alpha&lt;1
 else
     {
     obj_hero.x=416
-    obj_hero.alarm[0]=1800
+    obj_hero.alarm[0]=7200
     obj_hero.night=false
     room_goto(r_d_6)
     instance_destroy()

@@ -25,9 +25,64 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>first=true
-Y=50
-rY=150
+            <string>if obj_hero.night
+    {
+    first=true
+    Y=1
+    rY=199
+    UP=560
+    sprite_index=spr_water_bath
+    image_speed=0.2
+    with(obj_door_l)
+        {
+        instance_change(obj_spec_door_l,true)
+        }
+    with(obj_door_r)
+        {
+        instance_change(obj_spec_door_r,true)
+        }
+    triger=true
+    current_room=room
+    X=x
+    YY=y
+    alarm[0]=random_range(30,60)
+    }
+else
+    {
+    sprite_index=spr_bath
+    first=false
+    }
+triger=true
+    current_room=room
+    X=x
+    YY=y
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if !first
+    {
+    audio_play_sound(snd_drop_water,1,false)
+    alarm[0]=random_range(30,60)
+    }
 </string>
           </argument>
         </arguments>
@@ -50,17 +105,29 @@ rY=150
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-if Y&gt;=200
+            <string>///Викидування за межі екрану
+if current_room!=room 
     {
-    scr_death()
+    if y&gt;200 &amp;&amp; triger=true
+        {
+        triger=false
+        X=x
+        x=-1000
+        }
+    }
+else
+    {
+    if y&gt;200
+        {
+        triger=true
+        x=X
+        y=YY
+        }
     }
 </string>
           </argument>
         </arguments>
       </action>
-    </event>
-    <event eventtype="6" enumb="7">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -77,10 +144,22 @@ if Y&gt;=200
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if obj_hero.inventory_target='axe'
+            <string>if first
     {
-    first=false
+    if Y&gt;=200
+        {
+        scr_death()
+        }
     }
+if first
+    {
+    audio_play_sound(snd_water,2,true)
+    }
+else
+    {
+    audio_stop_sound(snd_water)
+    }
+
 </string>
           </argument>
         </arguments>
@@ -106,9 +185,20 @@ if Y&gt;=200
             <string>draw_self()
 if first
     {
-    draw_sprite_part(spr_water,0,0,rY,800,Y,200,360)
-    //Y++
-    //rY++
+    draw_sprite_part(spr_water,0,0,rY,800,Y,240,UP)
+    Y+=0.2
+    rY-=0.2
+    UP-=0.2
+    }
+else
+    {
+    if obj_hero.night=true
+        {
+    draw_sprite_part(spr_water,0,0,rY,800,Y,240,UP)
+    Y-=0.2
+    rY-=0.2
+    UP+=0.2
+        }
     }
 </string>
           </argument>

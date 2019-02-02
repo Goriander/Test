@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>open=false
+            <string>triger=true
+open=false
 current_room=room
 X=x
 Y=y
@@ -92,7 +93,7 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if keyboard_key=vk_space &amp;&amp; open=false
+            <string>if keyboard_key=vk_space &amp;&amp; open=false &amp;&amp; obj_hero.night=true
     {
     open=true
     instance_create(obj_hero.x+128,obj_hero.y+256-60,obj_sheet)

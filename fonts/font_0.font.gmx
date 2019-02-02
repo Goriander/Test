@@ -13,6 +13,8 @@
     <texgroup0>0</texgroup0>
   </texgroups>
   <ranges>
+    <range0>10,10</range0>
+    <range0>13,13</range0>
     <range0>32,255</range0>
     <range0>1028,1028</range0>
     <range0>1030,1031</range0>

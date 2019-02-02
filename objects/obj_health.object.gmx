@@ -147,6 +147,13 @@ obj_hero.inventory_have-=1
             <kind>1</kind>
             <string>///Вибирання об'єкта
 inventory_target='health'
+if yad=true
+    {
+    yad=false
+    alarm[2]=1
+    instance_destroy()
+    obj_hero.inventory_target='noone'
+    }
 </string>
           </argument>
         </arguments>

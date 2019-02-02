@@ -8,17 +8,28 @@
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
   <bbox_left>0</bbox_left>
+<<<<<<< HEAD
   <bbox_right>39</bbox_right>
   <bbox_top>0</bbox_top>
   <bbox_bottom>35</bbox_bottom>
+=======
+  <bbox_right>29</bbox_right>
+  <bbox_top>0</bbox_top>
+  <bbox_bottom>26</bbox_bottom>
+>>>>>>> Всеукраїнський_конкурс
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
+<<<<<<< HEAD
   <width>40</width>
   <height>36</height>
+=======
+  <width>30</width>
+  <height>27</height>
+>>>>>>> Всеукраїнський_конкурс
   <frames>
     <frame index="0">images\spr_button_right_0.png</frame>
   </frames>

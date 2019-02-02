@@ -4,15 +4,28 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snd_door_1</sound>
+    <sound>sound\snd_door_2</sound>
+    <sound>sound\snd_drop_water</sound>
+    <sound>sound\snd_water</sound>
+    <sound>sound\snd_sliz</sound>
+    <sound>sound\snd_kislota</sound>
+    <sound>sound\snd_glass</sound>
+    <sound>sound\snd_monster_dead</sound>
+    <sound>sound\snd_day_1</sound>
+    <sound>sound\snd_day_2</sound>
+    <sound>sound\snd_night</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="spr_note">
       <sprite>sprites\spr_note_iventory</sprite>
-      <sprite>sprites\spr_note_open</sprite>
-      <sprite>sprites\spr_button_right</sprite>
-      <sprite>sprites\spr_button_left</sprite>
-      <sprite>sprites\spr_button_new</sprite>
       <sprite>sprites\spr_note_on_floor</sprite>
+      <sprite>sprites\spr_bttn_r</sprite>
+      <sprite>sprites\spr_bttn_l</sprite>
+      <sprite>sprites\spr_bttn_new</sprite>
+      <sprite>sprites\spr_note_open</sprite>
+      <sprite>sprites\spr_ok</sprite>
     </sprites>
     <sprites name="spr_inventory">
       <sprite>sprites\spr_sheet</sprite>
@@ -21,6 +34,7 @@
       <sprite>sprites\spr_lamp</sprite>
       <sprite>sprites\spr_candle</sprite>
       <sprite>sprites\spr_cassette</sprite>
+      <sprite>sprites\spr_yad</sprite>
       <sprite>sprites\spr_health</sprite>
     </sprites>
     <sprites name="spr_lighting">
@@ -104,6 +118,7 @@
     <sprite>sprites\spr_bath_bg_2</sprite>
     <sprite>sprites\spr_water</sprite>
     <sprite>sprites\spr_bath</sprite>
+    <sprite>sprites\spr_water_bath</sprite>
     <sprite>sprites\spr_soap</sprite>
     <sprite>sprites\spr_medic</sprite>
     <sprite>sprites\spr_jar</sprite>
@@ -125,6 +140,7 @@
     <sprite>sprites\sprite102</sprite>
     <sprite>sprites\spr_bath_animation</sprite>
     <sprite>sprites\spr_logo</sprite>
+    <sprite>sprites\spr_textbox</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_menu</background>
@@ -132,6 +148,8 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_death.gml</script>
+    <script>scripts\scr_choose.gml</script>
+    <script>scripts\scr_say.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_0</font>
@@ -157,7 +175,12 @@
       <object>objects\obj_candle</object>
       <object>objects\obj_cassette</object>
       <object>objects\obj_health</object>
+      <object>objects\obj_yad</object>
     </objects>
+    <object>objects\obj_background_0</object>
+    <object>objects\obj_background_2</object>
+    <object>objects\obj_background_1</object>
+    <object>objects\obj_emptyaxe</object>
     <objects name="Decoration">
       <objects name="shelfs">
         <object>objects\obj_bookshelf_0</object>
@@ -196,28 +219,26 @@
       <objects name="obj_doors">
         <object>objects\obj_door_open</object>
         <object>objects\obj_door_l</object>
+        <object>objects\obj_spec_door_l</object>
         <object>objects\obj_u_strw_r</object>
         <object>objects\obj_u_strw_l</object>
         <object>objects\obj_door_r</object>
+        <object>objects\obj_spec_door_r</object>
         <object>objects\obj_door_close</object>
         <object>objects\obj_steirway_r</object>
         <object>objects\obj_steirway_l</object>
       </objects>
     </objects>
     <object>objects\obj_pregrada</object>
-    <object>objects\obj_background_0</object>
-    <object>objects\obj_background_1</object>
-    <object>objects\obj_background_2</object>
     <object>objects\obj_hummer</object>
     <object>objects\obj_naunchaki</object>
-    <object>objects\obj_emptyaxe</object>
     <object>objects\obj_bath_bg_0</object>
     <object>objects\obj_bath_bg_1</object>
     <object>objects\obj_bath_bg_2</object>
     <object>objects\obj_bath_dry</object>
     <object>objects\obj_soap</object>
     <object>objects\obj_medic</object>
-    <object>objects\obj_slime_0</object>
+    <object>objects\obj_medic_yad</object>
     <object>objects\obj_jar</object>
     <object>objects\obj_alonejar</object>
     <object>objects\obj_plitka</object>
@@ -237,8 +258,14 @@
     <object>objects\obj_stairway_r</object>
     <objects name="obj_monsters">
       <object>objects\obj_mirror_monster</object>
+      <object>objects\obj_slime</object>
+      <object>objects\obj_slime_yad</object>
+      <object>objects\obj_slime_0</object>
     </objects>
     <object>objects\obj_logo</object>
+    <object>objects\obj_say</object>
+    <object>objects\obj_textbox</object>
+    <object>objects\obj_ok</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room58</room>

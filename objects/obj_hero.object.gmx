@@ -36,7 +36,33 @@ candle=false
 lamp=false
 night=false
 alarm[0]=1800
-
+yad=false
+global.dth = false
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="2">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Персонаж вмирає
+if yad=true
+    scr_death()
 </string>
           </argument>
         </arguments>
@@ -60,9 +86,9 @@ alarm[0]=1800
           <argument>
             <kind>1</kind>
             <string>///Night left
-//if !instance_exists(obj_sunrise)
-//    instance_create(0,0,obj_sunrise)
-//alarm[0]=3600
+if !instance_exists(obj_sunrise)
+    instance_create(0,0,obj_sunrise)
+alarm[0]=2600
 sprite_index=spr_death_r
 image_speed=0.4
 </string>
@@ -88,8 +114,11 @@ image_speed=0.4
           <argument>
             <kind>1</kind>
             <string>///day left
-sprite_index=spr_death_r
-image_speed=0.4
+if !instance_exists(obj_night)
+    instance_create(0,0,obj_night)
+alarm[1]=2600
+//sprite_index=spr_death_r
+//image_speed=0.4
 </string>
           </argument>
         </arguments>
@@ -204,6 +233,65 @@ if keyboard_check_released(vk_down) = true
         }
     }
 
+if !night &amp;&amp; audio_is_playing(all)=false
+    {
+    audio_play_sound(choose(snd_day_1,snd_day_2),1,false)
+    }
+if night &amp;&amp; audio_is_playing(all)=false
+    {
+    audio_play_sound(snd_night,1,false)
+    }
+
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_slime_0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>yad=true
+alarm[2]=10000
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_slime_yad">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>yad=true
+alarm[2]=10000
 
 </string>
           </argument>
@@ -677,20 +765,27 @@ if keyboard_check_pressed(vk_space)
         </arguments>
       </action>
     </event>
-    <event eventtype="5" enumb="27">
+    <event eventtype="5" enumb="112">
       <action>
         <libid>1</libid>
-        <id>332</id>
-        <kind>0</kind>
+        <id>603</id>
+        <kind>7</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_end_game</functionname>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>instance_create(500,500,obj_textbox)
+</string>
+          </argument>
+        </arguments>
       </action>
     </event>
     <event eventtype="7" enumb="7">
@@ -744,7 +839,7 @@ if sprite_index=spr_chose_down_l
     image_index = 1;
     }
 
-if sprite_index=spr_death_r
+if sprite_index=spr_death_r &amp;&amp; !global.dth
     {
     //if !instance_exists(obj_night)
     if night=false
@@ -763,6 +858,18 @@ if sprite_index=spr_death_r
         }
     
     }
+if (sprite_index = spr_chose_stand_l)
+{
+    image_speed = 0;
+    sprite_index = spr_stop_hero;
+    image_index = 1;
+}
+if (sprite_index = spr_chose_stand_r)
+{
+    image_speed = 0;
+    sprite_index = spr_stop_hero;
+    image_index = 0;
+}
 </string>
           </argument>
         </arguments>
@@ -789,7 +896,9 @@ if sprite_index=spr_death_r
 //var test
 draw_self()
 //test=room_get_name(room)
-//draw_text(200,200,string(test))
+draw_set_colour(c_white)
+if yad=true
+    draw_text(640,200,'Time left '+string(alarm[2]/60))
 if !candle &amp;&amp; !lamp &amp;&amp; night
     draw_sprite_ext(spr_dark,0,0,0,1,1,0,0,0.9)
 
@@ -798,6 +907,40 @@ if candle &amp;&amp; night
     
 if lamp &amp;&amp; night
     draw_sprite_ext(spr_lamp_light,0,x+130,y+170,1,1,point_direction(x+130,y+170,mouse_x,mouse_y),0,0.9)
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="10" enumb="116">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if night=true
+        {
+        if instance_exists(obj_sunrise)=false
+            instance_create(0,0,obj_sunrise)
+        //alarm[1]=7200
+        }
+    else
+        {
+        if instance_exists(obj_night)=false
+            instance_create(0,0,obj_night)
+        //alarm[0]=1
+        }
 </string>
           </argument>
         </arguments>

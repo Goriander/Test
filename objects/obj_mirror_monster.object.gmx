@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>life=true
+            <string>triger=true
+image_speed=0.5
+life=true
 current_room=room
 X=x
 Y=y
@@ -54,6 +56,7 @@ Y=y
             <string>if life=true &amp;&amp; obj_hero.x&lt;x
     {
     obj_hero.x+=1
+    obj_hero.hspeed=0
     }
 if current_room!=room 
     {
@@ -127,13 +130,17 @@ if sprite_index=spr_mirror_eye
     life=false
     obj_hero.inventory_target='noone'
     sprite_index=spr_false_mirror
+    audio_play_sound(snd_glass,1,false)
     }
-
+    
 if obj_hero.inventory_target='sheet'
     {
     life=false
     obj_hero.inventory_target='noone'
     sprite_index=spr_clatch
+    instance_destroy(obj_sheet)
+    obj_hero.inventory_have-=1
+    audio_play_sound(snd_glass,1,false)
     }
 </string>
           </argument>
