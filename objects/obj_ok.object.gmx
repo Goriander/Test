@@ -37,7 +37,8 @@ ini_write_string(string(obj_note_ico.num),'text',text)
 ini_write_real(string(obj_note_ico.num),'x',obj_hero.x)
 ini_close()
 instance_destroy(obj_textbox)
-instance_destroy()
+instance_destroy(obj_close)
+instance_destroy(self)
 </string>
           </argument>
         </arguments>

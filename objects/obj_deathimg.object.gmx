@@ -3,7 +3,7 @@
   <spriteName>spr_deathimg</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-21</depth>
+  <depth>-601</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>image_alpha = 0;
 checker = 0;
-alarm[0] = 18;
+alarm[0] = 35;
 v_start = false;
 global.dth = true;
 </string>

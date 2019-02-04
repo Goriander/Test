@@ -30,6 +30,8 @@ cursor = "|";
 delay = 40;
 alarm[0] = delay;
 instance_create(458+364-30-45,510,obj_ok)
+instance_create(458+40+25,509,obj_close)
+keyboard_string = ' '
 </string>
           </argument>
         </arguments>

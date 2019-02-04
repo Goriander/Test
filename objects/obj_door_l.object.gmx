@@ -26,8 +26,26 @@
           <argument>
             <kind>1</kind>
             <string>///Шлях куди веде дверь
-if obj_hero.night=true
+/*if obj_hero.night=true
     path=choose(r_n_19,r_n_20,r_n_21,r_n_22,r_n_23,r_n_24,r_n_25,r_n_26,r_n_27,r_n_28,r_n_29,r_n_30,r_n_31,r_n_33,r_n_34,r_n_35)
+*/
+path = r_n_24;
+randomize();
+rand_obscatles = irandom(12);
+
+
+if (rand_obscatles = 0 || rand_obscatles = 3 || rand_obscatles = 5 || rand_obscatles = 8 || rand_obscatles = 12 || rand_obscatles = 6 || rand_obscatles = 2)
+    {
+     path=choose(r_n_19,r_n_21,r_n_22,r_n_24,r_n_25,r_n_26,r_n_30,r_n_31,r_n_34,r_n_35,r_n_36);
+    }
+if (rand_obscatles = 9 || rand_obscatles = 10 || rand_obscatles = 11 || rand_obscatles = 7)
+    {
+    path=choose(r_n_20,r_n_23,r_n_26,r_n_27);
+    }
+if (rand_obscatles = 1 || rand_obscatles = 4 )
+    {
+    path=choose(r_n_29,r_n_33)
+    }
 
 </string>
           </argument>
@@ -52,14 +70,222 @@ if obj_hero.night=true
           <argument>
             <kind>1</kind>
             <string>///Переміщення
-if keyboard_key=vk_space
+if (keyboard_check_released(vk_space) = true)
     {
-    //if obj_hero.collision_object=-1
-     //   {
-        obj_hero.x=path_x-110
-        room_goto(path)
+    switch (path)
+        {
+        case r_n_19:
+            randomize();
+            var rand = irandom(1);
+            if (rand == 0)
+                {
+                obj_hero.x = 923;
+                room_goto(path);
+                }
+            else
+                {
+                obj_hero.x = 542;
+                room_goto(path);
+                }
+        break;
+   
+        case r_n_20:
+            randomize();
+            var rand = irandom(1);
+            if (rand == 0)
+                {
+                obj_hero.x = 396;
+                room_goto(path);
+                }
+            else
+                {
+                obj_hero.x = 860;
+                room_goto(path);
+                }
+        break;
+        
+        case r_n_21:
+            randomize();
+            var rand = irandom(1);
+            if (rand == 0)
+                {
+                obj_hero.x = 476;
+                room_goto(path);
+                }
+            else
+                {
+                obj_hero.x = 812;
+                room_goto(path);
+                }
+        break;
+        
+        case r_n_22:
+            randomize();
+            var rand = irandom(1);
+            if (rand == 0)
+                {
+                obj_hero.x = 436;
+                room_goto(path);
+                }
+            else
+                {
+                obj_hero.x = 765;
+                room_goto(path);
+                }
+        break;
+        
+        case r_n_23:
+            obj_hero.x = 631;
+            room_goto(path);
+        break;
+        
+        case r_n_24:
+            obj_hero.x = 928;
+            room_goto(path);
+        break;
+        
+        case r_n_25:
+            randomize();
+            var rand = irandom(2);
+            if (rand == 0)
+                {
+                obj_hero.x = 422;
+                room_goto(path);
+                }
+            if (rand == 1)
+                {
+                obj_hero.x = 720;
+                room_goto(path);
+                }
+            if (rand == 2)
+                {
+                obj_hero.x = 836;
+                room_goto(path);
+                }
+        break;
+        
+        case r_n_26:
+            randomize();
+            var rand = irandom(1);
+            if (rand == 0)
+                {
+                obj_hero.x = 360;
+                room_goto(path);
+                }
+            else
+                {
+                obj_hero.x = 876;
+                room_goto(path);
+                }
+        break;
+        
+        case r_n_27:
+            obj_hero.x = 412;
+            room_goto(path);
+        break;        
+        
+        case r_n_28:
+            obj_hero.x = 1034;
+            room_goto(path);
+        break;        
+        
+        case r_n_29:
+            randomize();
+            var rand = irandom(1);
+            if (rand == 0)
+                {
+                obj_hero.x = 295;
+                room_goto(path);
+                }
+            else
+                {
+                obj_hero.x = 925;
+                room_goto(path);
+                }
+        break;        
+        
+        case r_n_30:
+            randomize();
+            var rand = irandom(2);
+            if (rand == 0)
+                {
+                obj_hero.x = 381;
+                room_goto(path);
+                }
+            if (rand == 1)
+                {
+                obj_hero.x = 613;
+                room_goto(path);
+                }
+            if (rand == 2)
+                {
+                obj_hero.x = 840;
+                room_goto(path);
+                }
+        break;        
+
+        case r_n_31:
+            randomize();
+            var rand = irandom(2);
+            if (rand == 0)
+                {
+                obj_hero.x = 381;
+                room_goto(path);
+                }
+            if (rand == 1)
+                {
+                obj_hero.x = 613;
+                room_goto(path);
+                }
+            if (rand == 2)
+                {
+                obj_hero.x = 840;
+                room_goto(path);
+                }
+        break;         
+               
+         case r_n_33:
+            obj_hero.x = 409;
+            room_goto(path);
+        break;       
+        
+        case r_n_34:
+            obj_hero.x = 471;
+            room_goto(path);
+        break;         
+        
+        case r_n_35:
+            randomize();
+            var rand = irandom(1);
+            if (rand == 0)
+                {
+                obj_hero.x = 317;
+                room_goto(path);
+                }
+            else
+                {
+                obj_hero.x = 930;
+                room_goto(path);
+                }
+        break;        
+
+        case r_n_36:
+            randomize();
+            var rand = irandom(1);
+            if (rand == 0)
+                {
+                obj_hero.x = 387;
+                room_goto(path);
+                }
+            else
+                {
+                obj_hero.x = 895;
+                room_goto(path);
+                }
+        break; 
+        }
+        randomize();
         audio_play_sound(choose(snd_door_1,snd_door_2),1,false)
-      //  }
     }
 </string>
           </argument>

@@ -26,6 +26,8 @@
       <sprite>sprites\spr_bttn_new</sprite>
       <sprite>sprites\spr_note_open</sprite>
       <sprite>sprites\spr_ok</sprite>
+      <sprite>sprites\spr_close</sprite>
+      <sprite>sprites\sprite114</sprite>
     </sprites>
     <sprites name="spr_inventory">
       <sprite>sprites\spr_sheet</sprite>
@@ -59,6 +61,13 @@
       <sprite>sprites\spr_axe_punch_l</sprite>
       <sprite>sprites\spr_axe_punch_r</sprite>
       <sprite>sprites\spr_pregrada</sprite>
+    </sprites>
+    <sprites name="spr_tutorial">
+      <sprite>sprites\spr_tutorial_0</sprite>
+      <sprite>sprites\spr_tutorial_1</sprite>
+      <sprite>sprites\spr_tutorial_2</sprite>
+      <sprite>sprites\spr_tutorial_3</sprite>
+      <sprite>sprites\spr_tutorial_controller</sprite>
     </sprites>
     <sprite>sprites\spr_clatch</sprite>
     <sprite>sprites\spr_false_mirror</sprite>
@@ -141,6 +150,7 @@
     <sprite>sprites\spr_bath_animation</sprite>
     <sprite>sprites\spr_logo</sprite>
     <sprite>sprites\spr_textbox</sprite>
+    <sprite>sprites\spr_preg_for_tables_</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_menu</background>
@@ -150,6 +160,7 @@
     <script>scripts\scr_death.gml</script>
     <script>scripts\scr_choose.gml</script>
     <script>scripts\scr_say.gml</script>
+    <script>scripts\scr_axe.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_0</font>
@@ -176,6 +187,13 @@
       <object>objects\obj_cassette</object>
       <object>objects\obj_health</object>
       <object>objects\obj_yad</object>
+    </objects>
+    <objects name="tutorial">
+      <object>objects\obj_t_cont</object>
+      <object>objects\obj_t_0</object>
+      <object>objects\obj_t_1</object>
+      <object>objects\obj_t_2</object>
+      <object>objects\obj_t_3</object>
     </objects>
     <object>objects\obj_background_0</object>
     <object>objects\obj_background_2</object>
@@ -266,6 +284,8 @@
     <object>objects\obj_say</object>
     <object>objects\obj_textbox</object>
     <object>objects\obj_ok</object>
+    <object>objects\obj_close</object>
+    <object>objects\obj_preg_for_tables</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room58</room>
